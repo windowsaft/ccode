@@ -14,6 +14,7 @@ int main (void) {
 }
 
 
+
 void port_init(void) {
     PORT0->IOCR0 = 0x80808080;
 }
