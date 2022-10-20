@@ -1,0 +1,126 @@
+   1              	 .syntax unified
+   2              	 .cpu cortex-m4
+   3              	 .eabi_attribute 27,3
+   4              	 .fpu fpv4-sp-d16
+   5              	 .eabi_attribute 20,1
+   6              	 .eabi_attribute 21,1
+   7              	 .eabi_attribute 23,3
+   8              	 .eabi_attribute 24,1
+   9              	 .eabi_attribute 25,1
+  10              	 .eabi_attribute 26,1
+  11              	 .eabi_attribute 30,6
+  12              	 .eabi_attribute 34,1
+  13              	 .eabi_attribute 18,4
+  14              	 .thumb
+  15              	 .file "main.c"
+  16              	 .text
+  17              	.Ltext0:
+  18              	 .cfi_sections .debug_frame
+  19              	 .global i
+  20              	 .section .bss.i,"aw",%nobits
+  21              	 .align 2
+  24              	i:
+  25 0000 00000000 	 .space 4
+  26              	 .section .text.main,"ax",%progbits
+  27              	 .align 2
+  28              	 .global main
+  29              	 .thumb
+  30              	 .thumb_func
+  32              	main:
+  33              	.LFB133:
+  34              	 .file 1 "../main.c"
+   1:../main.c     **** /*
+   2:../main.c     ****  * main.c
+   3:../main.c     ****  *
+   4:../main.c     ****  *  Created on: 2022 Oct 12 12:45:44
+   5:../main.c     ****  *  Author: mt21001
+   6:../main.c     ****  */
+   7:../main.c     **** 
+   8:../main.c     **** 
+   9:../main.c     **** 
+  10:../main.c     **** #include "xmc_common.h"
+  11:../main.c     **** 
+  12:../main.c     **** 
+  13:../main.c     **** uint32_t i = 0;
+  14:../main.c     **** int main(void)
+  15:../main.c     **** {
+  35              	 .loc 1 15 0
+  36              	 .cfi_startproc
+  37              	 
+  38              	 
+  39              	 
+  40 0000 80B4     	 push {r7}
+  41              	.LCFI0:
+  42              	 .cfi_def_cfa_offset 4
+  43              	 .cfi_offset 7,-4
+  44 0002 00AF     	 add r7,sp,#0
+  45              	.LCFI1:
+  46              	 .cfi_def_cfa_register 7
+  16:../main.c     ****   PORT0->IOCR0 = 0x80808080;
+  47              	 .loc 1 16 0
+  48 0004 0D4B     	 ldr r3,.L5
+  49 0006 4FF08032 	 mov r2,#-2139062144
+  50 000a 1A61     	 str r2,[r3,#16]
+  17:../main.c     ****   PORT0->IOCR4 = 0x80808080;
+  51              	 .loc 1 17 0
+  52 000c 0B4B     	 ldr r3,.L5
+  53 000e 4FF08032 	 mov r2,#-2139062144
+  54 0012 5A61     	 str r2,[r3,#20]
+  55              	.L4:
+  18:../main.c     ****   /* Placeholder for user application code. The while loop below can be replaced with user applicat
+  19:../main.c     ****   while(1U)
+  20:../main.c     ****   {
+  21:../main.c     **** 	  for (i = 0; i < 1005500; i++);
+  56              	 .loc 1 21 0
+  57 0014 0A4B     	 ldr r3,.L5+4
+  58 0016 0022     	 movs r2,#0
+  59 0018 1A60     	 str r2,[r3]
+  60 001a 04E0     	 b .L2
+  61              	.L3:
+  62              	 .loc 1 21 0 is_stmt 0 discriminator 3
+  63 001c 084B     	 ldr r3,.L5+4
+  64 001e 1B68     	 ldr r3,[r3]
+  65 0020 0133     	 adds r3,r3,#1
+  66 0022 074A     	 ldr r2,.L5+4
+  67 0024 1360     	 str r3,[r2]
+  68              	.L2:
+  69              	 .loc 1 21 0 discriminator 1
+  70 0026 064B     	 ldr r3,.L5+4
+  71 0028 1B68     	 ldr r3,[r3]
+  72 002a 064A     	 ldr r2,.L5+8
+  73 002c 9342     	 cmp r3,r2
+  74 002e F5D9     	 bls .L3
+  22:../main.c     **** 	  PORT0->OUT++;
+  75              	 .loc 1 22 0 is_stmt 1
+  76 0030 024B     	 ldr r3,.L5
+  77 0032 1A68     	 ldr r2,[r3]
+  78 0034 0132     	 adds r2,r2,#1
+  79 0036 1A60     	 str r2,[r3]
+  23:../main.c     ****   }
+  80              	 .loc 1 23 0
+  81 0038 ECE7     	 b .L4
+  82              	.L6:
+  83 003a 00BF     	 .align 2
+  84              	.L5:
+  85 003c 00800248 	 .word 1208123392
+  86 0040 00000000 	 .word i
+  87 0044 BB570F00 	 .word 1005499
+  88              	 .cfi_endproc
+  89              	.LFE133:
+  91              	 .text
+  92              	.Letext0:
+  93              	 .file 2 "c:\\infineon\\tools\\dave ide\\4.5.0.202105191637\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
+  94              	 .file 3 "c:\\infineon\\tools\\dave ide\\4.5.0.202105191637\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
+  95              	 .file 4 "C:/Users/mt21001/Documents/DAVE-2022-10-12/lauflicht/Libraries/CMSIS/Infineon/XMC4500_series/Include/XMC4500.h"
+  96              	 .file 5 "C:/Users/mt21001/Documents/DAVE-2022-10-12/lauflicht/Libraries/CMSIS/Include/cmsis_gcc.h"
+  97              	 .file 6 "C:/Users/mt21001/Documents/DAVE-2022-10-12/lauflicht/Libraries/CMSIS/Include/core_cm4.h"
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+    {standard input}:24     .bss.i:00000000 i
+    {standard input}:21     .bss.i:00000000 $d
+    {standard input}:27     .text.main:00000000 $t
+    {standard input}:32     .text.main:00000000 main
+    {standard input}:85     .text.main:0000003c $d
+                     .debug_frame:00000010 $d
+
+NO UNDEFINED SYMBOLS

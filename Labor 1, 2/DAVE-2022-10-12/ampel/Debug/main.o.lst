@@ -1,0 +1,283 @@
+   1              	 .syntax unified
+   2              	 .cpu cortex-m4
+   3              	 .eabi_attribute 27,3
+   4              	 .fpu fpv4-sp-d16
+   5              	 .eabi_attribute 20,1
+   6              	 .eabi_attribute 21,1
+   7              	 .eabi_attribute 23,3
+   8              	 .eabi_attribute 24,1
+   9              	 .eabi_attribute 25,1
+  10              	 .eabi_attribute 26,1
+  11              	 .eabi_attribute 30,6
+  12              	 .eabi_attribute 34,1
+  13              	 .eabi_attribute 18,4
+  14              	 .thumb
+  15              	 .file "main.c"
+  16              	 .text
+  17              	.Ltext0:
+  18              	 .cfi_sections .debug_frame
+  19              	 .comm i,2,2
+  20              	 .global ampel_phasen
+  21              	 .section .data.ampel_phasen,"aw",%progbits
+  22              	 .align 2
+  25              	ampel_phasen:
+  26 0000 0604     	 .short 1030
+  27 0002 0604     	 .short 1030
+  28 0004 0604     	 .short 1030
+  29 0006 0604     	 .short 1030
+  30 0008 0604     	 .short 1030
+  31 000a 0A04     	 .short 1034
+  32 000c 1204     	 .short 1042
+  33 000e 1104     	 .short 1041
+  34 0010 3100     	 .short 49
+  35 0012 3100     	 .short 49
+  36 0014 3100     	 .short 49
+  37 0016 3100     	 .short 49
+  38 0018 3100     	 .short 49
+  39 001a 5200     	 .short 82
+  40 001c 1A04     	 .short 1050
+  41 001e 0604     	 .short 1030
+  42              	 .section .text.warte1,"ax",%progbits
+  43              	 .align 2
+  44              	 .global warte1
+  45              	 .thumb
+  46              	 .thumb_func
+  48              	warte1:
+  49              	.LFB133:
+  50              	 .file 1 "../main.c"
+   1:../main.c     **** /*
+   2:../main.c     ****  * main.c
+   3:../main.c     ****  *
+   4:../main.c     ****  *  Created on: 2022 Oct 12 13:25:27
+   5:../main.c     ****  *  Author: mt21001
+   6:../main.c     ****  */
+   7:../main.c     **** 
+   8:../main.c     **** 
+   9:../main.c     **** 
+  10:../main.c     **** #include "xmc_common.h"
+  11:../main.c     **** 
+  12:../main.c     **** /*
+  13:../main.c     ****  * gruen			1
+  14:../main.c     ****  * gelb				2
+  15:../main.c     ****  * gelb - rot		3
+  16:../main.c     ****  * rot				4
+  17:../main.c     ****  *
+  18:../main.c     ****  *
+  19:../main.c     ****  */
+  20:../main.c     **** 
+  21:../main.c     **** uint16_t i;
+  22:../main.c     **** uint16_t ampel_phasen[] = {0x406, 0x406, 0x406, 0x406, 0x406, 0x40a, 0x412, 0x411, 0x031, 0x031, 0x
+  23:../main.c     **** //uint16_t ampel_phasen[] = {0x86, 0x86, 0x86, 0x86, 0x86, 0x8a, 0x92, 0xd1, 0x31, 0x31, 0x31, 0x31
+  24:../main.c     **** 
+  25:../main.c     **** //sleep 1 sec
+  26:../main.c     **** void warte1(uint32_t multi) {
+  51              	 .loc 1 26 0
+  52              	 .cfi_startproc
+  53              	 
+  54              	 
+  55              	 
+  56 0000 80B4     	 push {r7}
+  57              	.LCFI0:
+  58              	 .cfi_def_cfa_offset 4
+  59              	 .cfi_offset 7,-4
+  60 0002 85B0     	 sub sp,sp,#20
+  61              	.LCFI1:
+  62              	 .cfi_def_cfa_offset 24
+  63 0004 00AF     	 add r7,sp,#0
+  64              	.LCFI2:
+  65              	 .cfi_def_cfa_register 7
+  66 0006 7860     	 str r0,[r7,#4]
+  27:../main.c     **** 	uint32_t a;
+  28:../main.c     **** 	for (a = 0; a < (1205500 * multi); a++);
+  67              	 .loc 1 28 0
+  68 0008 0023     	 movs r3,#0
+  69 000a FB60     	 str r3,[r7,#12]
+  70 000c 02E0     	 b .L2
+  71              	.L3:
+  72              	 .loc 1 28 0 is_stmt 0 discriminator 3
+  73 000e FB68     	 ldr r3,[r7,#12]
+  74 0010 0133     	 adds r3,r3,#1
+  75 0012 FB60     	 str r3,[r7,#12]
+  76              	.L2:
+  77              	 .loc 1 28 0 discriminator 1
+  78 0014 7B68     	 ldr r3,[r7,#4]
+  79 0016 054A     	 ldr r2,.L4
+  80 0018 02FB03F2 	 mul r2,r2,r3
+  81 001c FB68     	 ldr r3,[r7,#12]
+  82 001e 9A42     	 cmp r2,r3
+  83 0020 F5D8     	 bhi .L3
+  29:../main.c     **** }
+  84              	 .loc 1 29 0 is_stmt 1
+  85 0022 1437     	 adds r7,r7,#20
+  86              	.LCFI3:
+  87              	 .cfi_def_cfa_offset 4
+  88 0024 BD46     	 mov sp,r7
+  89              	.LCFI4:
+  90              	 .cfi_def_cfa_register 13
+  91              	 
+  92 0026 5DF8047B 	 ldr r7,[sp],#4
+  93              	.LCFI5:
+  94              	 .cfi_restore 7
+  95              	 .cfi_def_cfa_offset 0
+  96 002a 7047     	 bx lr
+  97              	.L5:
+  98              	 .align 2
+  99              	.L4:
+ 100 002c FC641200 	 .word 1205500
+ 101              	 .cfi_endproc
+ 102              	.LFE133:
+ 104              	 .section .text.main,"ax",%progbits
+ 105              	 .align 2
+ 106              	 .global main
+ 107              	 .thumb
+ 108              	 .thumb_func
+ 110              	main:
+ 111              	.LFB134:
+  30:../main.c     **** 
+  31:../main.c     **** int main(void)
+  32:../main.c     **** {
+ 112              	 .loc 1 32 0
+ 113              	 .cfi_startproc
+ 114              	 
+ 115              	 
+ 116 0000 80B5     	 push {r7,lr}
+ 117              	.LCFI6:
+ 118              	 .cfi_def_cfa_offset 8
+ 119              	 .cfi_offset 7,-8
+ 120              	 .cfi_offset 14,-4
+ 121 0002 00AF     	 add r7,sp,#0
+ 122              	.LCFI7:
+ 123              	 .cfi_def_cfa_register 7
+  33:../main.c     **** 	/* Placeholder for user application code. The while loop below can be replaced with user applicati
+  34:../main.c     **** 	PORT0->IOCR0 = 0x80808080;
+ 124              	 .loc 1 34 0
+ 125 0004 204B     	 ldr r3,.L14
+ 126 0006 4FF08032 	 mov r2,#-2139062144
+ 127 000a 1A61     	 str r2,[r3,#16]
+  35:../main.c     **** 	PORT0->IOCR4 = 0x80808080;
+ 128              	 .loc 1 35 0
+ 129 000c 1E4B     	 ldr r3,.L14
+ 130 000e 4FF08032 	 mov r2,#-2139062144
+ 131 0012 5A61     	 str r2,[r3,#20]
+  36:../main.c     **** 	PORT0->IOCR8 = 0x80808080;
+ 132              	 .loc 1 36 0
+ 133 0014 1C4B     	 ldr r3,.L14
+ 134 0016 4FF08032 	 mov r2,#-2139062144
+ 135 001a 9A61     	 str r2,[r3,#24]
+ 136              	.L13:
+  37:../main.c     **** 
+  38:../main.c     **** 	while(1U)
+  39:../main.c     **** 	{
+  40:../main.c     **** 		if ((PORT1->IN & 0x0100) == 0) {
+ 137              	 .loc 1 40 0
+ 138 001c 1B4B     	 ldr r3,.L14+4
+ 139 001e 5B6A     	 ldr r3,[r3,#36]
+ 140 0020 03F48073 	 and r3,r3,#256
+ 141 0024 002B     	 cmp r3,#0
+ 142 0026 21D1     	 bne .L7
+  41:../main.c     **** 			  for (i = 0; i < 16; i++) {
+ 143              	 .loc 1 41 0
+ 144 0028 194B     	 ldr r3,.L14+8
+ 145 002a 0022     	 movs r2,#0
+ 146 002c 1A80     	 strh r2,[r3]
+ 147 002e 18E0     	 b .L8
+ 148              	.L11:
+  42:../main.c     **** 				  PORT0->OUT = ampel_phasen[i];
+ 149              	 .loc 1 42 0
+ 150 0030 154B     	 ldr r3,.L14
+ 151 0032 174A     	 ldr r2,.L14+8
+ 152 0034 1288     	 ldrh r2,[r2]
+ 153 0036 1146     	 mov r1,r2
+ 154 0038 164A     	 ldr r2,.L14+12
+ 155 003a 32F81120 	 ldrh r2,[r2,r1,lsl#1]
+ 156 003e 1A60     	 str r2,[r3]
+  43:../main.c     **** 				  warte1(1);
+ 157              	 .loc 1 43 0
+ 158 0040 0120     	 movs r0,#1
+ 159 0042 FFF7FEFF 	 bl warte1
+  44:../main.c     **** 
+  45:../main.c     **** 				  if ((PORT1->IN & 0x0100) > 0) break;
+ 160              	 .loc 1 45 0
+ 161 0046 114B     	 ldr r3,.L14+4
+ 162 0048 5B6A     	 ldr r3,[r3,#36]
+ 163 004a 03F48073 	 and r3,r3,#256
+ 164 004e 002B     	 cmp r3,#0
+ 165 0050 01D0     	 beq .L9
+ 166 0052 00BF     	 nop
+ 167 0054 16E0     	 b .L12
+ 168              	.L9:
+  41:../main.c     **** 				  PORT0->OUT = ampel_phasen[i];
+ 169              	 .loc 1 41 0 discriminator 2
+ 170 0056 0E4B     	 ldr r3,.L14+8
+ 171 0058 1B88     	 ldrh r3,[r3]
+ 172 005a 0133     	 adds r3,r3,#1
+ 173 005c 9AB2     	 uxth r2,r3
+ 174 005e 0C4B     	 ldr r3,.L14+8
+ 175 0060 1A80     	 strh r2,[r3]
+ 176              	.L8:
+  41:../main.c     **** 				  PORT0->OUT = ampel_phasen[i];
+ 177              	 .loc 1 41 0 is_stmt 0 discriminator 1
+ 178 0062 0B4B     	 ldr r3,.L14+8
+ 179 0064 1B88     	 ldrh r3,[r3]
+ 180 0066 0F2B     	 cmp r3,#15
+ 181 0068 E2D9     	 bls .L11
+ 182 006a 0BE0     	 b .L12
+ 183              	.L7:
+  46:../main.c     **** 			  }
+  47:../main.c     **** 		}
+  48:../main.c     **** 
+  49:../main.c     **** 		else {
+  50:../main.c     **** 			PORT0->OUT = 0x48;
+ 184              	 .loc 1 50 0 is_stmt 1
+ 185 006c 064B     	 ldr r3,.L14
+ 186 006e 4822     	 movs r2,#72
+ 187 0070 1A60     	 str r2,[r3]
+  51:../main.c     **** 			warte1(1);
+ 188              	 .loc 1 51 0
+ 189 0072 0120     	 movs r0,#1
+ 190 0074 FFF7FEFF 	 bl warte1
+  52:../main.c     **** 			PORT0->OUT = 0x0;
+ 191              	 .loc 1 52 0
+ 192 0078 034B     	 ldr r3,.L14
+ 193 007a 0022     	 movs r2,#0
+ 194 007c 1A60     	 str r2,[r3]
+  53:../main.c     **** 			warte1(1);
+ 195              	 .loc 1 53 0
+ 196 007e 0120     	 movs r0,#1
+ 197 0080 FFF7FEFF 	 bl warte1
+ 198              	.L12:
+  54:../main.c     **** 		}
+  55:../main.c     **** 
+  56:../main.c     **** 	}
+ 199              	 .loc 1 56 0 discriminator 2
+ 200 0084 CAE7     	 b .L13
+ 201              	.L15:
+ 202 0086 00BF     	 .align 2
+ 203              	.L14:
+ 204 0088 00800248 	 .word 1208123392
+ 205 008c 00810248 	 .word 1208123648
+ 206 0090 00000000 	 .word i
+ 207 0094 00000000 	 .word ampel_phasen
+ 208              	 .cfi_endproc
+ 209              	.LFE134:
+ 211              	 .text
+ 212              	.Letext0:
+ 213              	 .file 2 "c:\\infineon\\tools\\dave ide\\4.5.0.202105191637\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 214              	 .file 3 "c:\\infineon\\tools\\dave ide\\4.5.0.202105191637\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
+ 215              	 .file 4 "C:/Users/mt21001/Documents/DAVE-2022-10-12/ampel/Libraries/CMSIS/Infineon/XMC4500_series/Include/XMC4500.h"
+ 216              	 .file 5 "C:/Users/mt21001/Documents/DAVE-2022-10-12/ampel/Libraries/CMSIS/Include/cmsis_gcc.h"
+ 217              	 .file 6 "C:/Users/mt21001/Documents/DAVE-2022-10-12/ampel/Libraries/CMSIS/Include/core_cm4.h"
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+                            *COM*:00000002 i
+    {standard input}:25     .data.ampel_phasen:00000000 ampel_phasen
+    {standard input}:22     .data.ampel_phasen:00000000 $d
+    {standard input}:43     .text.warte1:00000000 $t
+    {standard input}:48     .text.warte1:00000000 warte1
+    {standard input}:100    .text.warte1:0000002c $d
+    {standard input}:105    .text.main:00000000 $t
+    {standard input}:110    .text.main:00000000 main
+    {standard input}:204    .text.main:00000088 $d
+                     .debug_frame:00000010 $d
+
+NO UNDEFINED SYMBOLS
