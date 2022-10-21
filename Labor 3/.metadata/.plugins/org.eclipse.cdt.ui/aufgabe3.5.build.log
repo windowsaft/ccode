@@ -1,0 +1,11 @@
+14:53:18 **** Incremental Build of configuration Debug for project aufgabe3.5 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe3.5.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1896	     12	   2072	   3980	    f8c	aufgabe3.5.elf
+'Finished building: aufgabe3.5.siz'
+
+
+14:53:19 Build Finished (took 393ms)
+

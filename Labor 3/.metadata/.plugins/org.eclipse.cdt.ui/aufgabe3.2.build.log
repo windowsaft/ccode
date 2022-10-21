@@ -1,0 +1,14 @@
+14:32:40 **** Build of configuration Debug for project aufgabe3.2 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c:2:25: fatal error: xmc4500_lib.h: No such file or directory
+ #include "xmc4500_lib.h"
+                         ^
+'Invoking: ARM-GCC C Compiler'
+compilation terminated.
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe3.2/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe3.2/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe3.2/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe3.2" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe3.2/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+
+14:32:41 Build Finished (took 485ms)
+

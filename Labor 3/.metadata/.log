@@ -1,0 +1,626 @@
+!SESSION 2022-10-20 13:53:16.625 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_222
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_DE
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY SOLVER 1 0 2022-10-20 13:53:56.915
+!MESSAGE USER_ACTION : Default solver exe path is: C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2022-10-20 13:53:57.197
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2022-10-20 13:53:57.198
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2022-10-20 13:53:57.744
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-20 13:53:58.412
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 13:53:58.696
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/Examples/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 13:53:59.426
+!MESSAGE ConnectionException:
+:https://www.infineon.com/dave/Libraries/Examples/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 13:53:59.434
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 13:53:59.436
+!MESSAGE ConnectionException:
+:https://www.infineon.com/dave/Libraries/DAVE_Libs/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 13:53:59.437
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/Contributed/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 13:53:59.438
+!MESSAGE ConnectionException:
+:https://www.infineon.com/dave/Libraries/DAVE_Libs/Contributed/latest//daveSite.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-20 13:54:00.146
+!MESSAGE Unknown Host: https://www.infineon.com/dave/Neon/4.5/CE/content.xml
+!STACK 0
+java.net.UnknownHostException: www.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:116)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-20 13:54:00.152
+!MESSAGE Unknown Host: https://www.infineon.com/dave/Neon/4.5/ARM-GCC-Update/content.xml
+!STACK 0
+java.net.UnknownHostException: www.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:116)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-20 13:54:00.157
+!MESSAGE Unknown Host: https://www.infineon.com/dave/Neon/4.5/Solver_emWin_update/content.xml
+!STACK 0
+java.net.UnknownHostException: www.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:116)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-20 13:54:00.162
+!MESSAGE Unknown Host: https://www.infineon.com/dave/Neon/4.5/Debugger/content.xml
+!STACK 0
+java.net.UnknownHostException: www.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:116)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-20 13:54:44.092
+!MESSAGE Indexed 'aufgabe3.3' (0 sources, 0 headers) in 0,003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-20 13:54:47.836
+!MESSAGE Indexed 'aufgabe3.3' (0 sources, 0 headers) in 0,003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 13:54:48.325
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 13:54:48.338
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe3.3\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 13:54:48.879
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 13:54:48.879
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe3.3\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 13:54:50.761
+!MESSAGE Time taken for project creation before wizard close: 7053
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 13:54:50.795
+!MESSAGE Time taken for postProjectCreation: 31
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 13:54:53.255
+!MESSAGE Resource '/aufgabe3.3' is not open.
+
+!ENTRY APPSTORE 1 0 2022-10-20 13:54:55.180
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.5.00.F100.ALL] is: 1302 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-20 13:54:55.194
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 8 msec 
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-20 14:03:49.016
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-20 14:03:49.018
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:03:50.963
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:03:51.792
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.ui 4 4 2022-10-20 14:03:57.798
+!MESSAGE Conflicting handlers for org.eclipse.debug.ui.commands.DebugLast: {ActionDelegateHandlerProxy(null,com.dave.activeproject.ui.actions.ActiveProjDebugLastAction in com.dave.activeproject)} vs {ActionDelegateHandlerProxy(null,org.eclipse.debug.internal.ui.actions.DebugLastAction in org.eclipse.debug.ui)}
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:05:00.698
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:05:01.395
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-20 14:07:15.091
+!MESSAGE Debug session 'aufgabe3.3 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:07:21.581
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:07:21.959
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-20 14:09:22.201
+!MESSAGE Debug session 'aufgabe3.3 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:09:39.117
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:09:39.446
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:11:18.810
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:11:19.142
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-20 14:12:38.136
+!MESSAGE Debug session 'aufgabe3.3 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:12:44.023
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:12:44.371
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-20 14:14:10.356
+!MESSAGE Debug session 'aufgabe3.3 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:14:17.424
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:14:17.738
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-20 14:15:13.864
+!MESSAGE Debug session 'aufgabe3.3 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:15:23.936
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:15:24.250
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:16:34.426
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:16:34.755
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:19:23.958
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:19:23.958
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe3.4\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:19:24.193
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:19:24.193
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe3.4\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:19:24.989
+!MESSAGE Time taken for project creation before wizard close: 1593
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:19:24.989
+!MESSAGE Time taken for postProjectCreation: 0
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:19:25.739
+!MESSAGE Resource '/aufgabe3.4' is not open.
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-20 14:19:25.879
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 0 msec 
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-20 14:19:27.203
+!MESSAGE Indexed 'aufgabe3.4' (39 sources, 89 headers) in 1,42 sec: 14.298 declarations; 35.440 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:23:37.922
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:23:38.256
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:26:09.716
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:26:10.032
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-20 14:28:22.768
+!MESSAGE Debug session 'aufgabe3.4 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:28:29.153
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:28:29.487
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:30:51.709
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:30:51.710
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe3.2\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:30:51.951
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:30:51.951
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe3.2\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:30:52.553
+!MESSAGE Time taken for project creation before wizard close: 1428
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:30:52.561
+!MESSAGE Time taken for postProjectCreation: 8
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:30:53.373
+!MESSAGE Resource '/aufgabe3.2' is not open.
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-20 14:30:53.481
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 0 msec 
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-20 14:30:54.764
+!MESSAGE Indexed 'aufgabe3.2' (39 sources, 89 headers) in 1,35 sec: 14.298 declarations; 35.440 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:37:38.662
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:37:38.663
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe3.5\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:37:38.962
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:37:38.962
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe3.5\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:37:39.723
+!MESSAGE Time taken for project creation before wizard close: 2115
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:37:39.733
+!MESSAGE Time taken for postProjectCreation: 9
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-20 14:37:40.571
+!MESSAGE Resource '/aufgabe3.5' is not open.
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-20 14:37:40.670
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 0 msec 
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-20 14:37:41.894
+!MESSAGE Indexed 'aufgabe3.5' (38 sources, 89 headers) in 1,22 sec: 14.296 declarations; 35.440 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.equinox.ds 1 0 2022-10-20 14:38:27.854
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:48:36.793
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:48:36.793
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:50:36.182
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:50:36.182
+!MESSAGE 
+
+!ENTRY SOLVER 1 0 2022-10-20 14:50:52.567
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2022-10-20 14:50:52.840
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-20 14:50:55.160
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-20 14:50:55.160
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-20 14:50:55.160
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-20 14:50:55.160
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-20 14:50:55.160
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-20 14:50:55.160
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+!SESSION 2022-10-20 14:51:04.216 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_222
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_DE
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY SOLVER 1 0 2022-10-20 14:51:23.553
+!MESSAGE USER_ACTION : Default solver exe path is: C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2022-10-20 14:51:23.693
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2022-10-20 14:51:23.693
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2022-10-20 14:51:23.943
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPSTORE 1 0 2022-10-20 14:51:24.851
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.5.00.F100.ALL] is: 705 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-20 14:51:25.195
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-20 14:51:25.620
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2022-10-20 14:51:25.729
+!MESSAGE Project facet jst.ejb has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 14:51:25.854
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/Examples/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 14:51:26.323
+!MESSAGE ConnectionException:
+:https://www.infineon.com/dave/Libraries/Examples/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 14:51:26.323
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 14:51:26.339
+!MESSAGE ConnectionException:
+:https://www.infineon.com/dave/Libraries/DAVE_Libs/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 14:51:26.339
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/Contributed/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-20 14:51:26.339
+!MESSAGE ConnectionException:
+:https://www.infineon.com/dave/Libraries/DAVE_Libs/Contributed/latest//daveSite.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-20 14:51:27.371
+!MESSAGE Unknown Host: https://www.infineon.com/dave/Neon/4.5/CE/content.xml
+!STACK 0
+java.net.UnknownHostException: www.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:116)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-20 14:51:27.371
+!MESSAGE Unknown Host: https://www.infineon.com/dave/Neon/4.5/ARM-GCC-Update/content.xml
+!STACK 0
+java.net.UnknownHostException: www.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:116)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-20 14:51:27.371
+!MESSAGE Unknown Host: https://www.infineon.com/dave/Neon/4.5/Solver_emWin_update/content.xml
+!STACK 0
+java.net.UnknownHostException: www.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:116)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-20 14:51:27.371
+!MESSAGE Unknown Host: https://www.infineon.com/dave/Neon/4.5/Debugger/content.xml
+!STACK 0
+java.net.UnknownHostException: www.infineon.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:116)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-20 14:52:04.864
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-20 14:52:04.864
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:52:05.645
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:52:05.645
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:52:29.435
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:52:29.435
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:52:48.599
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-10-20 14:52:48.599
+!MESSAGE 
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:53:19.551
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-20 14:53:19.900
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY SOLVER 1 0 2022-10-20 14:57:52.170
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2022-10-20 14:57:52.436
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-20 15:21:26.558
+!MESSAGE An internal error occurred during: "Save Script Repositories".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ease.ui.scripts.repository.impl.RepositoryService$1.run(RepositoryService.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-20 18:45:00.884
+!MESSAGE An internal error occurred during: "Save Script Repositories".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ease.ui.scripts.repository.impl.RepositoryService$1.run(RepositoryService.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-20 22:48:14.628
+!MESSAGE An internal error occurred during: "Save Script Repositories".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ease.ui.scripts.repository.impl.RepositoryService$1.run(RepositoryService.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-20 23:18:14.649
+!MESSAGE An internal error occurred during: "Save Script Repositories".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ease.ui.scripts.repository.impl.RepositoryService$1.run(RepositoryService.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-20 23:48:14.649
+!MESSAGE An internal error occurred during: "Save Script Repositories".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ease.ui.scripts.repository.impl.RepositoryService$1.run(RepositoryService.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-21 00:18:14.673
+!MESSAGE An internal error occurred during: "Save Script Repositories".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ease.ui.scripts.repository.impl.RepositoryService$1.run(RepositoryService.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-21 00:48:14.679
+!MESSAGE An internal error occurred during: "Save Script Repositories".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ease.ui.scripts.repository.impl.RepositoryService$1.run(RepositoryService.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-21 01:18:14.690
+!MESSAGE An internal error occurred during: "Save Script Repositories".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ease.ui.scripts.repository.impl.RepositoryService$1.run(RepositoryService.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
