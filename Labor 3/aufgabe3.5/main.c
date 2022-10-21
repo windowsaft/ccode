@@ -1,0 +1,46 @@
+#include "xmc_common.h"
+#include "xmc4500_lib.h"
+
+void init_port(void);
+
+uint16_t phasen[] = {0x0E, 0x2C, 0x23, 0x0B, 0x38, 0x32};
+
+
+int main (void) {
+    init_port();
+
+    while (1) {
+    	switch (PORT1->IN >> 8)
+    	{
+    	case 0x1:
+    	    PORT0->OUT = phasen[2];
+    	    break;
+
+    	case 0x3:
+    		PORT0->OUT = phasen[3];
+    	    break;
+
+    	case 0x2:
+    		PORT0->OUT = phasen[4];
+    	    break;
+
+    	case 0x6:
+    		PORT0->OUT = phasen[5];
+    	    break;
+
+    	case 0x4:
+    		PORT0->OUT = phasen[0];
+    	    break;
+
+    	case 0x5:
+    		PORT0->OUT = phasen[1];
+    	    break;
+    	}
+    }
+}
+
+void init_port(void) {
+    PORT0->IOCR0 = 0x80808080;
+    PORT0->IOCR4 = 0x80808080;
+    PORT1->IOCR0 = 0x00000000;
+}

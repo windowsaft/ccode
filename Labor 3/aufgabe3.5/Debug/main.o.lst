@@ -1,0 +1,245 @@
+   1              	 .syntax unified
+   2              	 .cpu cortex-m4
+   3              	 .eabi_attribute 27,3
+   4              	 .fpu fpv4-sp-d16
+   5              	 .eabi_attribute 20,1
+   6              	 .eabi_attribute 21,1
+   7              	 .eabi_attribute 23,3
+   8              	 .eabi_attribute 24,1
+   9              	 .eabi_attribute 25,1
+  10              	 .eabi_attribute 26,1
+  11              	 .eabi_attribute 30,6
+  12              	 .eabi_attribute 34,1
+  13              	 .eabi_attribute 18,4
+  14              	 .thumb
+  15              	 .file "main.c"
+  16              	 .text
+  17              	.Ltext0:
+  18              	 .cfi_sections .debug_frame
+  19              	 .global phasen
+  20              	 .section .data.phasen,"aw",%progbits
+  21              	 .align 2
+  24              	phasen:
+  25 0000 0E00     	 .short 14
+  26 0002 2C00     	 .short 44
+  27 0004 2300     	 .short 35
+  28 0006 0B00     	 .short 11
+  29 0008 3800     	 .short 56
+  30 000a 3200     	 .short 50
+  31              	 .section .text.main,"ax",%progbits
+  32              	 .align 2
+  33              	 .global main
+  34              	 .thumb
+  35              	 .thumb_func
+  37              	main:
+  38              	.LFB133:
+  39              	 .file 1 "../main.c"
+   1:../main.c     **** #include "xmc_common.h"
+   2:../main.c     **** #include "xmc4500_lib.h"
+   3:../main.c     **** 
+   4:../main.c     **** void init_port(void);
+   5:../main.c     **** 
+   6:../main.c     **** uint16_t phasen[] = {0x0E, 0x2C, 0x23, 0x0B, 0x38, 0x32};
+   7:../main.c     **** 
+   8:../main.c     **** 
+   9:../main.c     **** 
+  10:../main.c     **** int main (void) {
+  40              	 .loc 1 10 0
+  41              	 .cfi_startproc
+  42              	 
+  43              	 
+  44 0000 80B5     	 push {r7,lr}
+  45              	.LCFI0:
+  46              	 .cfi_def_cfa_offset 8
+  47              	 .cfi_offset 7,-8
+  48              	 .cfi_offset 14,-4
+  49 0002 00AF     	 add r7,sp,#0
+  50              	.LCFI1:
+  51              	 .cfi_def_cfa_register 7
+  11:../main.c     ****     init_port();
+  52              	 .loc 1 11 0
+  53 0004 FFF7FEFF 	 bl init_port
+  54              	.L10:
+  12:../main.c     **** 
+  13:../main.c     ****     while (1) {
+  14:../main.c     ****     	switch (PORT1->IN >> 8)
+  55              	 .loc 1 14 0
+  56 0008 1A4B     	 ldr r3,.L11
+  57 000a 5B6A     	 ldr r3,[r3,#36]
+  58 000c 1B0A     	 lsrs r3,r3,#8
+  59 000e 013B     	 subs r3,r3,#1
+  60 0010 052B     	 cmp r3,#5
+  61 0012 F9D8     	 bhi .L10
+  62 0014 01A2     	 adr r2,.L4
+  63 0016 52F823F0 	 ldr pc,[r2,r3,lsl#2]
+  64 001a 00BF     	 .p2align 2
+  65              	.L4:
+  66 001c 35000000 	 .word .L3+1
+  67 0020 49000000 	 .word .L5+1
+  68 0024 3F000000 	 .word .L6+1
+  69 0028 5D000000 	 .word .L7+1
+  70 002c 67000000 	 .word .L8+1
+  71 0030 53000000 	 .word .L9+1
+  72              	 .p2align 1
+  73              	.L3:
+  15:../main.c     ****     	{
+  16:../main.c     ****     	case 0x1:
+  17:../main.c     ****     	    PORT0->OUT = phasen[2];
+  74              	 .loc 1 17 0
+  75 0034 104B     	 ldr r3,.L11+4
+  76 0036 114A     	 ldr r2,.L11+8
+  77 0038 9288     	 ldrh r2,[r2,#4]
+  78 003a 1A60     	 str r2,[r3]
+  18:../main.c     ****     	    break;
+  79              	 .loc 1 18 0
+  80 003c 18E0     	 b .L2
+  81              	.L6:
+  19:../main.c     **** 
+  20:../main.c     ****     	case 0x3:
+  21:../main.c     ****     		PORT0->OUT = phasen[3];
+  82              	 .loc 1 21 0
+  83 003e 0E4B     	 ldr r3,.L11+4
+  84 0040 0E4A     	 ldr r2,.L11+8
+  85 0042 D288     	 ldrh r2,[r2,#6]
+  86 0044 1A60     	 str r2,[r3]
+  22:../main.c     ****     	    break;
+  87              	 .loc 1 22 0
+  88 0046 13E0     	 b .L2
+  89              	.L5:
+  23:../main.c     **** 
+  24:../main.c     ****     	case 0x2:
+  25:../main.c     ****     		PORT0->OUT = phasen[4];
+  90              	 .loc 1 25 0
+  91 0048 0B4B     	 ldr r3,.L11+4
+  92 004a 0C4A     	 ldr r2,.L11+8
+  93 004c 1289     	 ldrh r2,[r2,#8]
+  94 004e 1A60     	 str r2,[r3]
+  26:../main.c     ****     	    break;
+  95              	 .loc 1 26 0
+  96 0050 0EE0     	 b .L2
+  97              	.L9:
+  27:../main.c     **** 
+  28:../main.c     ****     	case 0x6:
+  29:../main.c     ****     		PORT0->OUT = phasen[5];
+  98              	 .loc 1 29 0
+  99 0052 094B     	 ldr r3,.L11+4
+ 100 0054 094A     	 ldr r2,.L11+8
+ 101 0056 5289     	 ldrh r2,[r2,#10]
+ 102 0058 1A60     	 str r2,[r3]
+  30:../main.c     ****     	    break;
+ 103              	 .loc 1 30 0
+ 104 005a 09E0     	 b .L2
+ 105              	.L7:
+  31:../main.c     **** 
+  32:../main.c     ****     	case 0x4:
+  33:../main.c     ****     		PORT0->OUT = phasen[0];
+ 106              	 .loc 1 33 0
+ 107 005c 064B     	 ldr r3,.L11+4
+ 108 005e 074A     	 ldr r2,.L11+8
+ 109 0060 1288     	 ldrh r2,[r2]
+ 110 0062 1A60     	 str r2,[r3]
+  34:../main.c     ****     	    break;
+ 111              	 .loc 1 34 0
+ 112 0064 04E0     	 b .L2
+ 113              	.L8:
+  35:../main.c     **** 
+  36:../main.c     ****     	case 0x5:
+  37:../main.c     ****     		PORT0->OUT = phasen[1];
+ 114              	 .loc 1 37 0
+ 115 0066 044B     	 ldr r3,.L11+4
+ 116 0068 044A     	 ldr r2,.L11+8
+ 117 006a 5288     	 ldrh r2,[r2,#2]
+ 118 006c 1A60     	 str r2,[r3]
+  38:../main.c     ****     	    break;
+ 119              	 .loc 1 38 0
+ 120 006e 00BF     	 nop
+ 121              	.L2:
+  39:../main.c     ****     	}
+  40:../main.c     ****     }
+ 122              	 .loc 1 40 0
+ 123 0070 CAE7     	 b .L10
+ 124              	.L12:
+ 125 0072 00BF     	 .align 2
+ 126              	.L11:
+ 127 0074 00810248 	 .word 1208123648
+ 128 0078 00800248 	 .word 1208123392
+ 129 007c 00000000 	 .word phasen
+ 130              	 .cfi_endproc
+ 131              	.LFE133:
+ 133              	 .section .text.init_port,"ax",%progbits
+ 134              	 .align 2
+ 135              	 .global init_port
+ 136              	 .thumb
+ 137              	 .thumb_func
+ 139              	init_port:
+ 140              	.LFB134:
+  41:../main.c     **** }
+  42:../main.c     **** 
+  43:../main.c     **** void init_port(void) {
+ 141              	 .loc 1 43 0
+ 142              	 .cfi_startproc
+ 143              	 
+ 144              	 
+ 145              	 
+ 146 0000 80B4     	 push {r7}
+ 147              	.LCFI2:
+ 148              	 .cfi_def_cfa_offset 4
+ 149              	 .cfi_offset 7,-4
+ 150 0002 00AF     	 add r7,sp,#0
+ 151              	.LCFI3:
+ 152              	 .cfi_def_cfa_register 7
+  44:../main.c     ****     PORT0->IOCR0 = 0x80808080;
+ 153              	 .loc 1 44 0
+ 154 0004 074B     	 ldr r3,.L14
+ 155 0006 4FF08032 	 mov r2,#-2139062144
+ 156 000a 1A61     	 str r2,[r3,#16]
+  45:../main.c     ****     PORT0->IOCR4 = 0x80808080;
+ 157              	 .loc 1 45 0
+ 158 000c 054B     	 ldr r3,.L14
+ 159 000e 4FF08032 	 mov r2,#-2139062144
+ 160 0012 5A61     	 str r2,[r3,#20]
+  46:../main.c     ****     PORT1->IOCR0 = 0x00000000;
+ 161              	 .loc 1 46 0
+ 162 0014 044B     	 ldr r3,.L14+4
+ 163 0016 0022     	 movs r2,#0
+ 164 0018 1A61     	 str r2,[r3,#16]
+  47:../main.c     **** }
+ 165              	 .loc 1 47 0
+ 166 001a BD46     	 mov sp,r7
+ 167              	.LCFI4:
+ 168              	 .cfi_def_cfa_register 13
+ 169              	 
+ 170 001c 5DF8047B 	 ldr r7,[sp],#4
+ 171              	.LCFI5:
+ 172              	 .cfi_restore 7
+ 173              	 .cfi_def_cfa_offset 0
+ 174 0020 7047     	 bx lr
+ 175              	.L15:
+ 176 0022 00BF     	 .align 2
+ 177              	.L14:
+ 178 0024 00800248 	 .word 1208123392
+ 179 0028 00810248 	 .word 1208123648
+ 180              	 .cfi_endproc
+ 181              	.LFE134:
+ 183              	 .text
+ 184              	.Letext0:
+ 185              	 .file 2 "c:\\program files\\infineon\\dave-ide_4.5.0\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 186              	 .file 3 "c:\\program files\\infineon\\dave-ide_4.5.0\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
+ 187              	 .file 4 "C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe3.5/Libraries/CMSIS/Infineon/XMC4500_series/Include/XMC4500.h"
+ 188              	 .file 5 "C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe3.5/Libraries/CMSIS/Include/cmsis_gcc.h"
+ 189              	 .file 6 "C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe3.5/Libraries/CMSIS/Include/core_cm4.h"
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+    {standard input}:24     .data.phasen:00000000 phasen
+    {standard input}:21     .data.phasen:00000000 $d
+    {standard input}:32     .text.main:00000000 $t
+    {standard input}:37     .text.main:00000000 main
+    {standard input}:139    .text.init_port:00000000 init_port
+    {standard input}:66     .text.main:0000001c $d
+    {standard input}:72     .text.main:00000034 $t
+    {standard input}:127    .text.main:00000074 $d
+    {standard input}:134    .text.init_port:00000000 $t
+    {standard input}:178    .text.init_port:00000024 $d
+                     .debug_frame:00000010 $d
+
+NO UNDEFINED SYMBOLS
