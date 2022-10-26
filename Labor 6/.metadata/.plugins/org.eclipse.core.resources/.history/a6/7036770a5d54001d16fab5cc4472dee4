@@ -1,0 +1,58 @@
+/*
+ * main.c
+ *
+ *  Created on: 2022 Oct 25 12:38:16
+ *  Author: Dennis
+ */
+/*
+ * Aufgabe 6.1
+ * Erzeugen sie an einem Controllerausgang einen Triggerimpuls von ca. 100µs Länge.
+ * Mit diesem Triggerimpuls wird beim Ultraschallsensor ein Messvorgang gestartet
+ * (vgl. Timing Diagramm). Der Triggerimpuls soll periodisch alle 500ms wiederholt werden.
+ *
+ *   • Messen sie mit dem Oszilloskop den Triggerimpuls und den vom Sensor erzeugten Echoimpuls.
+ *   • Simulieren sie mit einem Gegenstand verschiedene Distanzen (Auswirkung auf den Echoimpuls).
+ *   • Überprüfen sie rechnerisch den Zusammenhang: Breite des Echoimpulses - Distanz
+ */
+
+
+#include "DAVE.h"                 //Declarations from DAVE Code Generation (includes SFR declaration)
+#include "XMC4500.h"
+#include "xmc4500_lib.h"
+
+uint8_t state = 0;
+
+void init_pwm(uint32_t vorteiler, uint32_t periode, uint32_t w);
+void ccu40_enable ( void );
+
+int main(void) {
+  DAVE_Init();           /* Initialization of DAVE APPs  */
+  //init_pwm(0b1010, 58596, 0x4000);
+  init_pwm(0xB, 58516, 0x4000);
+
+  while(1U) {
+
+  }
+}
+
+void IRQHandler(void) {
+  if (PIN_INTERRUPT_GetPinValue(&PIN_INTERRUPT_0) > 0) state = 1;
+  else state = 0;
+}
+
+void init_pwm(uint32_t vorteiler, uint32_t periode, uint32_t w) {
+    // Vorteiler: 0b1010
+    // Periode: 58596
+    ccu4x_enable();                 // Freigabe CCU42 Timermodul
+
+    CCU42->GIDLC = 0x10F;           // Vorteiler enable, IDLE CCU40 disable
+    CCU42_CC40->TC = 0x04;          // Shadow transfer enable on clear
+    CCU42_CC40->PSC = 0xB;          // Vorteiler,
+    CCU42_CC40->PRS = 58516;      // Period Register set für 500 ms
+
+    // CCU42 Compare (Ausgangspin 3)
+    CCU42_CC40->CRS = 0x4000;
+    CCU42->GCSS = 1;                // Shadow transfer request
+    PORT3->IOCR0 = 0x98;            //Alt3 =>OUT bei P3.0
+    CCU42_CC40->TCSET = 0x01;       // starts counting
+}

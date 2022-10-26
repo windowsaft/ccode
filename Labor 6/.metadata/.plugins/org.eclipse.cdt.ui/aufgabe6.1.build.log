@@ -1,0 +1,29 @@
+10:07:44 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6444	      0	   2084	   8528	   2150	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+
+10:07:47 Build Finished (took 2s.938ms)
+

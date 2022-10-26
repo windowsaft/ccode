@@ -1,0 +1,1367 @@
+!SESSION 2022-10-25 12:36:45.138 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_222
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_DE
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY SOLVER 1 0 2022-10-25 12:37:37.586
+!MESSAGE USER_ACTION : Default solver exe path is: C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2022-10-25 12:37:37.664
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2022-10-25 12:37:37.664
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2022-10-25 12:37:37.789
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:37:38.070
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-25 12:37:38.148
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/Examples/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-25 12:37:39.032
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-25 12:37:39.937
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/Contributed/latest//daveSite.xml
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:38:14.757
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.5.00.F100.ALL] is: 218 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:38:15.637
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:38:15.637
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:38:15.954
+!MESSAGE assertion failed: 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:38:15.954
+!MESSAGE File 'C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\linker_script.ld' does not exist
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:38:17.250
+!MESSAGE Time taken for project creation before wizard close: 2711
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:38:17.281
+!MESSAGE Time taken for postProjectCreation: 31
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:38:18.219
+!MESSAGE Resource '/aufgabe6.1' is not open.
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:38:18.391
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:38:18.719
+!MESSAGE USER_ACTION : Active project:aufgabe6.1[ Software ID:XMC4.5.00.F100.ALL]
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:38:19.359
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:38:19.359
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 640 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:38:19.359
+!MESSAGE USER_ACTION : Time taken for updating views is: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:38:20.250
+!MESSAGE USER_ACTION : Time taken for rendering views is: 891 msec 
+
+!ENTRY DAVE CE 4 0 2022-10-25 12:38:20.726
+!MESSAGE 
+
+***START of Exception Info***
+C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\Common\..\projectData.bin
+sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:99)
+sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+java.nio.file.Files.copy(Files.java:1274)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:43)
+org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:88)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+Model.Common.DAVEc.run(DAVEc.tmpl:139)
+com.ifx.davex.ce.core.codegeneration.GroovyTemplateEngine$Mywritable.writeTo(GroovyTemplateEngine.java:104)
+com.ifx.davex.ce.core.codegeneration.GroovyTemplateEngine$Mywritable.toString(GroovyTemplateEngine.java:112)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationEngine.generateContents(CodeGenerationEngine.java:97)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager.generateDaveFileContents(CodeGenerationManager.java:481)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager.generateDaveCFile(CodeGenerationManager.java:422)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager.generateDaveFiles(CodeGenerationManager.java:348)
+com.ifx.davex.ce.core.template.debugging.CustomizeCEproject.initialProjectConvertAndCodeGen(CustomizeCEproject.java:473)
+com.ifx.davex.ce.core.notifiers.DaveEventInitializer.update(DaveEventInitializer.java:588)
+com.ifx.davex.ce.core.notifiers.ActiveProjectNotifer.fireEvent(ActiveProjectNotifer.java:93)
+com.ifx.davex.ce.core.notifiers.ActiveProjectNotifer.activeProjectChanged(ActiveProjectNotifer.java:115)
+com.dave.activeproject.core.ActiveProjectManager.fireActiveProjectChanged(ActiveProjectManager.java:681)
+com.dave.activeproject.core.ActiveProjectManager.storeAndFireActiveProjectEvent(ActiveProjectManager.java:415)
+com.dave.activeproject.core.ActiveProjectManager.setActiveProject(ActiveProjectManager.java:329)
+com.ifx.dave.project.creator.ProjectCreationWizard$1.run(ProjectCreationWizard.java:310)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+com.ifx.davex.product.DaveApplication.start(DaveApplication.java:140)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+***END of Exception Info***
+
+
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:38:20.804
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 2413 msec 
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-25 12:38:21.883
+!MESSAGE Indexed 'aufgabe6.1' (40 sources, 89 headers) in 3,49 sec: 14.173 declarations; 35.365 references; 1 unresolved inclusions; 0 syntax errors; 2 unresolved names (0,004 %)
+
+!ENTRY org.eclipse.equinox.ds 1 0 2022-10-25 12:39:57.215
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:40:58.161
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\XMC4.5.00.F100.ALL\device\xmc4500\0\MANIFEST\xmc4500.dd
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:41:37.144
+!MESSAGE USER_ACTION : App Getting Added: PIN_INTERRUPT [4.0.4]
+
+!ENTRY SOLVER 1 0 2022-10-25 12:41:37.176
+!MESSAGE USER_ACTION : Creating an APP: PIN_INTERRUPT [4.0.4]
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:41:37.441
+!MESSAGE USER_ACTION : CASE-1 PR->PR
+ CPU_CTRL_XMC4 [4.0.2] lStoreAppVersion: 4.0.18:l
+
+!ENTRY SOLVER 1 0 2022-10-25 12:41:37.472
+!MESSAGE USER_ACTION : Creating an APP: CPU_CTRL_XMC4 [4.0.18]
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:41:37.722
+!MESSAGE USER_ACTION : Created APP: CPU_CTRL_XMC4 [4.0.18]-->http://resources/4.0.18/app/CPU_CTRL_XMC4/0
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 12:41:37.785
+!MESSAGE USER_ACTION : Created APP: PIN_INTERRUPT [4.0.4]-->http://resources/4.0.4/app/PIN_INTERRUPT/0
+
+!ENTRY SOLVER 1 0 2022-10-25 12:41:37.816
+!MESSAGE USER_ACTION : Library store ECO file :C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\XMC4.5.00.F100.ALL\device\xmc4500\0\MANIFEST\solver_data\xmc4500_solver.eco
+
+!ENTRY SOLVER 1 0 2022-10-25 12:41:37.894
+!MESSAGE USER_ACTION : Copied ECO file to temp location :C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\.metadata\.plugins\solver_data\XMC4.5.00.F100.ALL\xmc4500_solver.eco
+
+!ENTRY SOLVER 1 0 2022-10-25 12:41:40.110
+!MESSAGE USER_ACTION : Loaded ECO file :C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\.metadata\.plugins\solver_data\XMC4.5.00.F100.ALL\xmc4500_solver.eco
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:41:40.641
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.31\peripheral\cpu\0\MANIFEST\cpu.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:41:40.656
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.28\peripheral\eru\1\MANIFEST\eru.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:41:40.672
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\debug_port\0\MANIFEST\debug_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:41:40.703
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.34\peripheral\scu\0\MANIFEST\scu.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:41:40.735
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\2\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:41:40.750
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\LQFP100.0.0\devicepackage\0\MANIFEST\devicepackage.dd
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:41:40.750
+!MESSAGE Time taken for processing complete solver result is: 156 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:41:40.750
+!MESSAGE *****Serialization is called after successful solver action*****
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:41:40.750
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:41:40.766
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2022-10-25 12:41:40.849
+!MESSAGE Time Taken By Serialization  : 83 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:41:40.865
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:41:40.896
+!MESSAGE Time taken for serialization in msec: 146
+
+!ENTRY UI_EDITOR 1 0 2022-10-25 12:42:47.301
+!MESSAGE USER_ACTION : Setting value = "true" of "gcheck_enable_at_init" in APP: PIN_INTERRUPT/4.0.4/0
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:42:47.301
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:42:47.301
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:42:47.316
+!MESSAGE Time taken for serialization in msec: 15
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:42:47.316
+!MESSAGE *****************************
+
+!ENTRY UI_EDITOR 1 0 2022-10-25 12:44:32.759
+!MESSAGE USER_ACTION : Setting value = "Both Edges" of "gcombo_interrupt_edge" in APP: PIN_INTERRUPT/4.0.4/0
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:44:32.768
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:44:32.768
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:44:32.775
+!MESSAGE Time taken for serialization in msec: 7
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:44:32.775
+!MESSAGE *****************************
+
+!ENTRY UI_EDITOR 1 0 2022-10-25 12:45:21.592
+!MESSAGE USER_ACTION : Setting value = "IRQHandler" of "gstring_interrupt_handler" in APP: PIN_INTERRUPT/4.0.4/0
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:45:21.592
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:45:21.592
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:45:21.607
+!MESSAGE Time taken for serialization in msec: 15
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:45:21.607
+!MESSAGE *****************************
+
+!ENTRY APP_CONFIGURATOR 1 0 2022-10-25 12:48:11.979
+!MESSAGE USER_ACTION : Time taken for opening editor is: 156 msec 
+
+!ENTRY PIN_CONFIG 1 0 2022-10-25 12:48:19.331
+!MESSAGE USER_ACTION : Opening Manual Pin Allocator Dialog.!
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.362
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.41\port\p\0\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.378
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\1\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.393
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\3\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.393
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\4\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.409
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\5\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.425
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\14\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.425
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\15\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.440
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\usb_port\0\MANIFEST\usb_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.440
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\hcu_port\0\MANIFEST\hcu_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.456
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\reset_port\0\MANIFEST\reset_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.456
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\crystal_port\0\MANIFEST\crystal_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.471
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.39\port\rtc_port\0\MANIFEST\rtc_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.471
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\power_port\0\MANIFEST\power_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:19.487
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\analogpower_port\0\MANIFEST\analogpower_port.dd
+
+!ENTRY PIN_CONFIG 1 0 2022-10-25 12:48:21.594
+!MESSAGE USER_ACTION : Pins Load : 172
+
+!ENTRY PIN_CONFIG 1 0 2022-10-25 12:48:33.588
+!MESSAGE USER_ACTION : Pins Load : 171
+
+!ENTRY PIN_CONFIG 1 0 2022-10-25 12:48:54.484
+!MESSAGE USER_ACTION : User selection (Pin Allocator) : PIN_INTERRUPT_0 --> Pin --> #2 ( P0.0 ) 
+
+!ENTRY PIN_CONFIG 1 0 2022-10-25 12:48:54.926
+!MESSAGE USER_ACTION : Pin Selection : 473
+
+!ENTRY APPSTORE 1 0 2022-10-25 12:48:57.464
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.28\peripheral\eru\0\MANIFEST\eru.dd
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:48:57.480
+!MESSAGE Time taken for processing complete solver result is: 46 msec 
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:48:57.480
+!MESSAGE *****Serialization is called after successful solver action*****
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:48:57.480
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:48:57.495
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2022-10-25 12:48:57.542
+!MESSAGE Time Taken By Serialization  : 47 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:48:57.558
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 12:48:57.573
+!MESSAGE Time taken for serialization in msec: 93
+
+!ENTRY PIN_CONFIG 1 0 2022-10-25 12:48:57.573
+!MESSAGE USER_ACTION : Saved User configured Pin Data.!
+
+!ENTRY SOLVER 1 0 2022-10-25 12:48:57.573
+!MESSAGE Time Taken By Solve and Save Manual PIN Configuration  : 139 ms
+
+!ENTRY PIN_CONFIG 1 0 2022-10-25 12:48:59.570
+!MESSAGE USER_ACTION : Manual Pin Allocator Dialog is closed..!
+
+!ENTRY DAVE CE 4 0 2022-10-25 13:20:56.483
+!MESSAGE 
+
+***START of Exception Info***
+C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\Common\..\projectData.bak
+sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+java.nio.file.Files.delete(Files.java:1126)
+java_nio_file_Files$delete.call(Unknown Source)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+Model.Common.DAVEc.run(DAVEc.tmpl:135)
+com.ifx.davex.ce.core.codegeneration.GroovyTemplateEngine$Mywritable.writeTo(GroovyTemplateEngine.java:104)
+com.ifx.davex.ce.core.codegeneration.GroovyTemplateEngine$Mywritable.toString(GroovyTemplateEngine.java:112)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationEngine.generateContents(CodeGenerationEngine.java:97)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager.generateDaveFileContents(CodeGenerationManager.java:481)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager.generateDaveCFile(CodeGenerationManager.java:422)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager.generateDaveFiles(CodeGenerationManager.java:348)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager.generateCode(CodeGenerationManager.java:1291)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager.commonBlock(CodeGenerationManager.java:1248)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager.access$5(CodeGenerationManager.java:1245)
+com.ifx.davex.ce.core.codegeneration.CodeGenerationManager$2.run(CodeGenerationManager.java:1228)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+***END of Exception Info***
+
+
+
+!ENTRY CODEGEN 1 0 2022-10-25 13:20:56.571
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2022-10-25 13:20:57.195
+!MESSAGE Code generation completed...
+
+!ENTRY org.eclipse.equinox.ds 1 0 2022-10-25 13:22:22.412
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-25 13:24:56.779
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-25 13:24:56.780
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-10-25 13:24:58.870
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-10-25 13:24:58.870
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-10-25 13:28:32.114
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-10-25 13:28:32.114
+!MESSAGE 
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:28:54.991
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:28:55.642
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.ui 4 4 2022-10-25 13:29:03.207
+!MESSAGE Conflicting handlers for org.eclipse.debug.ui.commands.DebugLast: {ActionDelegateHandlerProxy(null,org.eclipse.debug.internal.ui.actions.DebugLastAction in org.eclipse.debug.ui)} vs {ActionDelegateHandlerProxy(null,com.dave.activeproject.ui.actions.ActiveProjDebugLastAction in com.dave.activeproject)}
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 13:30:51.447
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:31:01.271
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:31:01.764
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 13:33:26.453
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:33:40.028
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:33:40.533
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 13:34:04.305
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:34:16.260
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:34:16.937
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:37:41.014
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:37:41.498
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 13:38:13.458
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:38:23.913
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:38:24.549
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 13:42:55.182
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:50:55.552
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:50:56.008
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 13:51:41.980
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:51:50.809
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:51:51.580
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:54:52.696
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:54:53.184
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:56:34.149
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 13:56:34.641
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:00:34.096
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:00:34.525
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:02:01.241
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:02:02.004
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:03:44.405
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:03:44.886
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:04:22.408
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:04:22.838
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:06:17.193
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:06:29.805
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:06:30.271
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.ui 4 4 2022-10-25 14:09:07.932
+!MESSAGE Referenced part does not exist yet: org.eclipse.jdt.ui.ProjectsView.
+
+!ENTRY org.eclipse.ui 4 4 2022-10-25 14:09:09.915
+!MESSAGE Referenced part does not exist yet: org.eclipse.jdt.ui.ProjectsView.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:15:43.118
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:16:08.911
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:16:09.524
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:38:26.564
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:38:34.248
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:38:37.932
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:38:45.789
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:39:38.532
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:40:03.388
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:40:03.884
+!MESSAGE J-Link GDB Server failed: 
+Could not listen on tcp port. Please check if another version of the server is running.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:40:23.113
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:40:23.442
+!MESSAGE J-Link GDB Server failed: 
+Could not listen on tcp port. Please check if another version of the server is running.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:42:25.143
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-25 14:42:25.476
+!MESSAGE J-Link GDB Server failed: 
+Could not listen on tcp port. Please check if another version of the server is running.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 14:42:42.930
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 14:42:42.965
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2022-10-25 14:42:43.104
+!MESSAGE Time Taken By Serialization  : 139 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 14:42:43.175
+!MESSAGE ****************Cleaning project data:aufgabe6.1*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:42:43.186
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 12 msec 
+
+!ENTRY SOLVER 1 0 2022-10-25 14:42:43.187
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2022-10-25 14:42:43.456
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+
+!ENTRY org.eclipse.cdt.dsf 4 -1 2022-10-25 14:42:45.985
+!MESSAGE Invocation exception when calling a service event handler method
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.RejectedExecutionException: Display org.eclipse.swt.widgets.Display@629984eb is disposed
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:85)
+	at org.eclipse.cdt.dsf.ui.viewmodel.AbstractVMAdapter.handleEvent(AbstractVMAdapter.java:260)
+	at org.eclipse.cdt.dsf.ui.viewmodel.datamodel.AbstractDMVMAdapter.eventDispatched(AbstractDMVMAdapter.java:103)
+	... 13 more
+Caused by: org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:710)
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:77)
+	... 15 more
+Root exception:
+java.util.concurrent.RejectedExecutionException: Display org.eclipse.swt.widgets.Display@629984eb is disposed
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:85)
+	at org.eclipse.cdt.dsf.ui.viewmodel.AbstractVMAdapter.handleEvent(AbstractVMAdapter.java:260)
+	at org.eclipse.cdt.dsf.ui.viewmodel.datamodel.AbstractDMVMAdapter.eventDispatched(AbstractDMVMAdapter.java:103)
+	at sun.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:710)
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:77)
+	... 15 more
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-25 14:42:47.747
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-25 14:42:47.750
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-25 14:42:47.751
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-25 14:42:47.753
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-25 14:42:47.755
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-25 14:42:47.757
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-25 14:42:47.758
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-25 14:42:47.760
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+!SESSION 2022-10-25 14:43:04.576 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_222
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_DE
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY SOLVER 1 0 2022-10-25 14:43:25.770
+!MESSAGE USER_ACTION : Default solver exe path is: C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2022-10-25 14:43:25.902
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2022-10-25 14:43:25.909
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2022-10-25 14:43:26.171
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPSTORE 1 0 2022-10-25 14:43:26.909
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.5.00.F100.ALL] is: 407 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:43:27.275
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 1 msec 
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2022-10-25 14:43:27.945
+!MESSAGE Project facet jst.ejb has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:43:28.250
+!MESSAGE USER_ACTION : Active project:aufgabe6.1[ Software ID:XMC4.5.00.F100.ALL]
+
+!ENTRY COMMON 1 0 2022-10-25 14:43:29.529
+!MESSAGE Time Taken By De-Serialization  : 540 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 14:43:29.536
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:43:29.643
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 1393 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:43:29.662
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(updateQuery): 15 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:43:29.671
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(getSolutionQuery): 8 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:43:29.677
+!MESSAGE USER_ACTION : Time taken for updating views is: 2 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:43:31.147
+!MESSAGE USER_ACTION : Time taken for rendering views is: 1468 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:43:32.152
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 4881 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:43:32.759
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-25 14:43:32.827
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/Examples/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-25 14:43:33.981
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-25 14:43:35.949
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/Contributed/latest//daveSite.xml
+
+!ENTRY CODEGEN 1 0 2022-10-25 14:43:52.308
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2022-10-25 14:43:53.209
+!MESSAGE Code generation completed...
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-25 14:44:13.997
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-25 14:44:14.018
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:44:17.169
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-25 14:44:17.721
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 14:48:26.160
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 14:48:26.210
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2022-10-25 14:48:26.337
+!MESSAGE Time Taken By Serialization  : 127 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-25 14:48:26.410
+!MESSAGE ****************Cleaning project data:aufgabe6.1*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-25 14:48:26.471
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 69 msec 
+
+!ENTRY SOLVER 1 0 2022-10-25 14:48:26.472
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2022-10-25 14:48:26.731
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+
+!ENTRY org.eclipse.cdt.dsf 4 -1 2022-10-25 14:48:28.537
+!MESSAGE Invocation exception when calling a service event handler method
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.RejectedExecutionException: Display org.eclipse.swt.widgets.Display@629984eb is disposed
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:85)
+	at org.eclipse.cdt.dsf.ui.viewmodel.AbstractVMAdapter.handleEvent(AbstractVMAdapter.java:260)
+	at org.eclipse.cdt.dsf.ui.viewmodel.datamodel.AbstractDMVMAdapter.eventDispatched(AbstractDMVMAdapter.java:103)
+	... 13 more
+Caused by: org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:710)
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:77)
+	... 15 more
+Root exception:
+java.util.concurrent.RejectedExecutionException: Display org.eclipse.swt.widgets.Display@629984eb is disposed
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:85)
+	at org.eclipse.cdt.dsf.ui.viewmodel.AbstractVMAdapter.handleEvent(AbstractVMAdapter.java:260)
+	at org.eclipse.cdt.dsf.ui.viewmodel.datamodel.AbstractDMVMAdapter.eventDispatched(AbstractDMVMAdapter.java:103)
+	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:710)
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:77)
+	... 15 more
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-25 14:48:29.707
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2022-10-26 08:35:02.102 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_222
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_DE
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY SOLVER 1 0 2022-10-26 08:35:50.461
+!MESSAGE USER_ACTION : Default solver exe path is: C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2022-10-26 08:35:50.721
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2022-10-26 08:35:50.722
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2022-10-26 08:35:51.137
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPSTORE 1 0 2022-10-26 08:35:52.810
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.5.00.F100.ALL] is: 1672 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 08:35:53.242
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 5 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 08:35:54.114
+!MESSAGE USER_ACTION : Active project:aufgabe6.1[ Software ID:XMC4.5.00.F100.ALL]
+
+!ENTRY COMMON 1 0 2022-10-26 08:35:55.669
+!MESSAGE Time Taken By De-Serialization  : 684 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 08:35:55.713
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 08:35:55.868
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 1754 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 08:35:55.882
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(updateQuery): 10 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 08:35:55.915
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(getSolutionQuery): 32 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 08:35:55.917
+!MESSAGE USER_ACTION : Time taken for updating views is: 1 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 08:35:57.488
+!MESSAGE USER_ACTION : Time taken for rendering views is: 1571 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 08:35:58.187
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 4954 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 08:35:58.787
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-26 08:35:58.972
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/Examples/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-26 08:36:01.043
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-26 08:36:02.440
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/Contributed/latest//daveSite.xml
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-26 08:46:35.579
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-26 08:46:35.581
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:46:39.230
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:46:39.901
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.ui 4 4 2022-10-26 08:46:48.543
+!MESSAGE Conflicting handlers for org.eclipse.debug.ui.commands.DebugLast: {ActionDelegateHandlerProxy(null,com.dave.activeproject.ui.actions.ActiveProjDebugLastAction in com.dave.activeproject)} vs {ActionDelegateHandlerProxy(null,org.eclipse.debug.internal.ui.actions.DebugLastAction in org.eclipse.debug.ui)}
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-26 08:53:03.536
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:53:21.437
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:53:21.868
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:54:36.954
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:54:37.500
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:58:46.221
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:58:46.736
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:59:16.913
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 08:59:17.470
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:00:47.881
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:00:48.345
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:10:03.959
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:10:04.553
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:11:11.474
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:11:11.963
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:15:54.777
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:15:55.208
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:16:45.892
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:16:46.446
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-26 09:26:07.612
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag 4 0 2022-10-26 09:26:44.291
+!MESSAGE Debug session 'aufgabe6.1 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:26:54.397
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:26:55.134
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:27:53.062
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:27:53.635
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:29:41.333
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:29:41.740
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:32:22.136
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:32:22.748
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:32:53.570
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:32:54.127
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:33:41.026
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 09:33:41.533
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.564
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\XMC4.5.00.F100.ALL\device\xmc4500\0\MANIFEST\xmc4500.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.640
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\LQFP100.0.0\devicepackage\0\MANIFEST\devicepackage.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.678
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.41\port\p\0\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.707
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\1\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.733
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\2\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.756
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\3\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.779
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\4\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.807
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\5\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.848
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\14\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.888
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\p\15\MANIFEST\p.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.912
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\usb_port\0\MANIFEST\usb_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.938
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.40\port\hcu_port\0\MANIFEST\hcu_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.961
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\debug_port\0\MANIFEST\debug_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:25.983
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\reset_port\0\MANIFEST\reset_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:26.006
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\crystal_port\0\MANIFEST\crystal_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:26.031
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.1.39\port\rtc_port\0\MANIFEST\rtc_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:26.057
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\power_port\0\MANIFEST\power_port.dd
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:07:26.082
+!MESSAGE USER_ACTION : Loaded DD: C:\Program Files\Infineon\DAVE-IDE_4.5.0\D_LibraryStore_4.4\resources\0.0.0\port\analogpower_port\0\MANIFEST\analogpower_port.dd
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 10:07:48.268
+!MESSAGE C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device XMC4500-F100x1024 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.jlink 4 1 2022-10-26 10:07:48.794
+!MESSAGE C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\ARM-GCC-49/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:09:35.826
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:09:35.859
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2022-10-26 10:09:36.004
+!MESSAGE Time Taken By Serialization  : 143 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:10:30.868
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:10:30.909
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2022-10-26 10:10:31.055
+!MESSAGE Time Taken By Serialization  : 145 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:10:31.135
+!MESSAGE ****************Cleaning project data:aufgabe6.1*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:10:31.537
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 410 msec 
+
+!ENTRY SOLVER 1 0 2022-10-26 10:10:31.539
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2022-10-26 10:10:31.810
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+
+!ENTRY org.eclipse.cdt.dsf 4 -1 2022-10-26 10:10:35.436
+!MESSAGE Invocation exception when calling a service event handler method
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.RejectedExecutionException: Display org.eclipse.swt.widgets.Display@7b1e5e55 is disposed
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:85)
+	at org.eclipse.cdt.dsf.ui.viewmodel.AbstractVMAdapter.handleEvent(AbstractVMAdapter.java:260)
+	at org.eclipse.cdt.dsf.ui.viewmodel.datamodel.AbstractDMVMAdapter.eventDispatched(AbstractDMVMAdapter.java:103)
+	... 13 more
+Caused by: org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:710)
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:77)
+	... 15 more
+Root exception:
+java.util.concurrent.RejectedExecutionException: Display org.eclipse.swt.widgets.Display@7b1e5e55 is disposed
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:85)
+	at org.eclipse.cdt.dsf.ui.viewmodel.AbstractVMAdapter.handleEvent(AbstractVMAdapter.java:260)
+	at org.eclipse.cdt.dsf.ui.viewmodel.datamodel.AbstractDMVMAdapter.eventDispatched(AbstractDMVMAdapter.java:103)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:710)
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:77)
+	... 15 more
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-26 10:10:36.616
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-26 10:10:36.619
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-26 10:10:36.622
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-26 10:10:36.625
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-26 10:10:36.628
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-26 10:10:36.632
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2022-10-26 10:13:46.914 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_222
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_DE
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY SOLVER 1 0 2022-10-26 10:14:40.038
+!MESSAGE USER_ACTION : Default solver exe path is: C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2022-10-26 10:14:40.227
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2022-10-26 10:14:40.232
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2022-10-26 10:14:40.526
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:14:41.454
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.5.00.F100.ALL] is: 456 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:41.630
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 1 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:42.586
+!MESSAGE USER_ACTION : Active project:aufgabe6.1[ Software ID:XMC4.5.00.F100.ALL]
+
+!ENTRY COMMON 1 0 2022-10-26 10:14:43.970
+!MESSAGE Time Taken By De-Serialization  : 567 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:14:43.983
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:44.106
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 1520 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:44.119
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(updateQuery): 11 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:44.132
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(getSolutionQuery): 13 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:44.137
+!MESSAGE USER_ACTION : Time taken for updating views is: 5 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:45.544
+!MESSAGE USER_ACTION : Time taken for rendering views is: 1407 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:46.359
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 4730 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:47.018
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-26 10:14:47.120
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/Examples/XMC_IFX/latest//daveSite.xml
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2022-10-26 10:14:47.178
+!MESSAGE Project facet jst.ejb has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-26 10:14:48.429
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-26 10:14:49.534
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/Contributed/latest//daveSite.xml
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:14:59.179
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:14:59.227
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2022-10-26 10:14:59.378
+!MESSAGE Time Taken By Serialization  : 144 ms :: C:\Users\Dennis\NextCloud\desktop\Neuer Ordner\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:14:59.634
+!MESSAGE ****************Cleaning project data:aufgabe6.1*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:14:59.704
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 272 msec 
+
+!ENTRY SOLVER 1 0 2022-10-26 10:14:59.705
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2022-10-26 10:14:59.973
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+!SESSION 2022-10-26 10:28:34.467 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_222
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_DE
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY SOLVER 1 0 2022-10-26 10:29:03.335
+!MESSAGE USER_ACTION : Default solver exe path is: C:\Program Files\Infineon\DAVE-IDE_4.5.0\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2022-10-26 10:29:03.485
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2022-10-26 10:29:03.486
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2022-10-26 10:29:03.789
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPSTORE 1 0 2022-10-26 10:29:04.329
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.5.00.F100.ALL] is: 535 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:04.388
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 15 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:04.926
+!MESSAGE USER_ACTION : Active project:aufgabe6.1[ Software ID:XMC4.5.00.F100.ALL]
+
+!ENTRY COMMON 1 0 2022-10-26 10:29:06.791
+!MESSAGE Time Taken By De-Serialization  : 909 ms :: C:\Users\Dennis\Downloads\aufgabe6\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:29:06.799
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:06.932
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 2007 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:06.948
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(updateQuery): 12 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:06.963
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(getSolutionQuery): 13 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:06.965
+!MESSAGE USER_ACTION : Time taken for updating views is: 1 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:08.636
+!MESSAGE USER_ACTION : Time taken for rendering views is: 1669 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:09.093
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 4720 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:11.581
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-26 10:29:11.651
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/Examples/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-26 10:29:12.519
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/XMC_IFX/latest//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2022-10-26 10:29:13.790
+!MESSAGE Reading file: https://www.infineon.com/dave/Libraries/DAVE_Libs/Contributed/latest//daveSite.xml
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:29:29.482
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:29:29.554
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2022-10-26 10:29:29.709
+!MESSAGE Time Taken By Serialization  : 154 ms :: C:\Users\Dennis\Downloads\aufgabe6\aufgabe6.1\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2022-10-26 10:29:29.967
+!MESSAGE ****************Cleaning project data:aufgabe6.1*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2022-10-26 10:29:30.042
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 286 msec 
+
+!ENTRY SOLVER 1 0 2022-10-26 10:29:30.042
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2022-10-26 10:29:30.305
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED

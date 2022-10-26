@@ -1,0 +1,31 @@
+#include <DAVE.h>
+#include <XMC4500.h> //SFR declarations of the
+#include <xmc4500_lib.h>
+//************************************************
+void init_timer ( void );
+void ccu40_enable ( void );
+//************************************************
+void main ( void ) { // Ausgabe Port 0:
+	PORT0->IOCR0 = 0x80808080;
+	PORT0->IOCR4 = 0x80808080;
+	init_timer();
+	while (1);
+
+
+}
+
+//************************************************
+void init_timer ( void ) {
+	ccu4x_enable();
+	// CCU42 Init:
+	CCU42->GIDLC = 0x10F; //Vorteiler enable,CCU42
+	CCU42_CC40->TC= 4; //Shadow transfer enable on
+	CCU42_CC40->PSC = 0xA; // Vorteiler , hier
+	CCU42_CC40->PRS = 0x8000; //Period Register set
+// CCU42 Compare: ( Ausganspin P3.0 )
+	CCU42_CC40->CRS = 0x4000; // Compare Wert,hier 1:1
+	CCU42->GCSS = 1; //Shadow transfer request slice
+	PORT3->IOCR0 = 0x98; // Alt3=>OUT bei P3.0
+	CCU42_CC40->TCSET = 0x1; //starts counting
+}
+//***********************************************

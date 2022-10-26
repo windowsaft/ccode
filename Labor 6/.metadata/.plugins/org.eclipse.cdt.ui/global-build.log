@@ -1,0 +1,1410 @@
+13:21:14 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../Libraries/XMCLib/src/xmc4_eru.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc4_eru.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc4_eru.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc4_eru.d" -MT"Libraries/XMCLib/src/xmc4_eru.d Libraries/XMCLib/src/xmc4_eru.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc4_eru.o" "../Libraries/XMCLib/src/xmc4_eru.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc4_eru.c'
+
+'Building file: ../Startup/system_XMC4500.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Startup/system_XMC4500.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Startup/system_XMC4500.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Startup/system_XMC4500.d" -MT"Startup/system_XMC4500.d Startup/system_XMC4500.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Startup/system_XMC4500.o" "../Startup/system_XMC4500.c" 
+'Finished building: ../Startup/system_XMC4500.c'
+
+'Building file: ../Startup/startup_XMC4500.S'
+'Invoking: ARM-GCC Assembler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Startup/startup_XMC4500.o" -x assembler-with-cpp -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -Wall -Wa,-adhlns="Startup/startup_XMC4500.o.lst" -mfloat-abi=softfp -c -fmessage-length=0 -MMD -MP -MF"Startup/startup_XMC4500.d" -MT"Startup/startup_XMC4500.d Startup/startup_XMC4500.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Startup/startup_XMC4500.o" "../Startup/startup_XMC4500.S" 
+'Finished building: ../Startup/startup_XMC4500.S'
+
+'Building file: ../Libraries/XMCLib/src/xmc4_flash.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc4_flash.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc4_flash.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc4_flash.d" -MT"Libraries/XMCLib/src/xmc4_flash.d Libraries/XMCLib/src/xmc4_flash.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc4_flash.o" "../Libraries/XMCLib/src/xmc4_flash.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc4_flash.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc4_gpio.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc4_gpio.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc4_gpio.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc4_gpio.d" -MT"Libraries/XMCLib/src/xmc4_gpio.d Libraries/XMCLib/src/xmc4_gpio.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc4_gpio.o" "../Libraries/XMCLib/src/xmc4_gpio.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc4_gpio.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc4_rtc.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc4_rtc.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc4_rtc.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc4_rtc.d" -MT"Libraries/XMCLib/src/xmc4_rtc.d Libraries/XMCLib/src/xmc4_rtc.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc4_rtc.o" "../Libraries/XMCLib/src/xmc4_rtc.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc4_rtc.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_can.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_can.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_can.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_can.d" -MT"Libraries/XMCLib/src/xmc_can.d Libraries/XMCLib/src/xmc_can.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_can.o" "../Libraries/XMCLib/src/xmc_can.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_can.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc4_scu.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc4_scu.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc4_scu.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc4_scu.d" -MT"Libraries/XMCLib/src/xmc4_scu.d Libraries/XMCLib/src/xmc4_scu.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc4_scu.o" "../Libraries/XMCLib/src/xmc4_scu.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc4_scu.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_common.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_common.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_common.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_common.d" -MT"Libraries/XMCLib/src/xmc_common.d Libraries/XMCLib/src/xmc_common.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_common.o" "../Libraries/XMCLib/src/xmc_common.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_common.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_ccu4.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_ccu4.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_ccu4.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_ccu4.d" -MT"Libraries/XMCLib/src/xmc_ccu4.d Libraries/XMCLib/src/xmc_ccu4.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_ccu4.o" "../Libraries/XMCLib/src/xmc_ccu4.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_ccu4.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_ccu8.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_ccu8.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_ccu8.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_ccu8.d" -MT"Libraries/XMCLib/src/xmc_ccu8.d Libraries/XMCLib/src/xmc_ccu8.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_ccu8.o" "../Libraries/XMCLib/src/xmc_ccu8.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_ccu8.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_dac.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_dac.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_dac.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_dac.d" -MT"Libraries/XMCLib/src/xmc_dac.d Libraries/XMCLib/src/xmc_dac.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_dac.o" "../Libraries/XMCLib/src/xmc_dac.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_dac.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_dsd.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_dsd.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_dsd.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_dsd.d" -MT"Libraries/XMCLib/src/xmc_dsd.d Libraries/XMCLib/src/xmc_dsd.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_dsd.o" "../Libraries/XMCLib/src/xmc_dsd.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_dsd.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_dma.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_dma.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_dma.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_dma.d" -MT"Libraries/XMCLib/src/xmc_dma.d Libraries/XMCLib/src/xmc_dma.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_dma.o" "../Libraries/XMCLib/src/xmc_dma.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_dma.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_ecat.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_ecat.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_ecat.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_ecat.d" -MT"Libraries/XMCLib/src/xmc_ecat.d Libraries/XMCLib/src/xmc_ecat.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_ecat.o" "../Libraries/XMCLib/src/xmc_ecat.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_ecat.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_ebu.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_ebu.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_ebu.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_ebu.d" -MT"Libraries/XMCLib/src/xmc_ebu.d Libraries/XMCLib/src/xmc_ebu.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_ebu.o" "../Libraries/XMCLib/src/xmc_ebu.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_ebu.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_eru.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_eru.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_eru.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_eru.d" -MT"Libraries/XMCLib/src/xmc_eru.d Libraries/XMCLib/src/xmc_eru.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_eru.o" "../Libraries/XMCLib/src/xmc_eru.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_eru.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_eth_phy_dp83848.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_eth_phy_dp83848.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_eth_phy_dp83848.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_eth_phy_dp83848.d" -MT"Libraries/XMCLib/src/xmc_eth_phy_dp83848.d Libraries/XMCLib/src/xmc_eth_phy_dp83848.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_eth_phy_dp83848.o" "../Libraries/XMCLib/src/xmc_eth_phy_dp83848.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_eth_phy_dp83848.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_eth_phy_ksz8031rnl.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_eth_phy_ksz8031rnl.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_eth_phy_ksz8031rnl.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_eth_phy_ksz8031rnl.d" -MT"Libraries/XMCLib/src/xmc_eth_phy_ksz8031rnl.d Libraries/XMCLib/src/xmc_eth_phy_ksz8031rnl.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_eth_phy_ksz8031rnl.o" "../Libraries/XMCLib/src/xmc_eth_phy_ksz8031rnl.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_eth_phy_ksz8031rnl.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_eth_phy_ksz8081rnb.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_eth_phy_ksz8081rnb.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_eth_phy_ksz8081rnb.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_eth_phy_ksz8081rnb.d" -MT"Libraries/XMCLib/src/xmc_eth_phy_ksz8081rnb.d Libraries/XMCLib/src/xmc_eth_phy_ksz8081rnb.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_eth_phy_ksz8081rnb.o" "../Libraries/XMCLib/src/xmc_eth_phy_ksz8081rnb.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_eth_phy_ksz8081rnb.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_eth_mac.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_eth_mac.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_eth_mac.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_eth_mac.d" -MT"Libraries/XMCLib/src/xmc_eth_mac.d Libraries/XMCLib/src/xmc_eth_mac.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_eth_mac.o" "../Libraries/XMCLib/src/xmc_eth_mac.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_eth_mac.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_fce.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_fce.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_fce.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_fce.d" -MT"Libraries/XMCLib/src/xmc_fce.d Libraries/XMCLib/src/xmc_fce.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_fce.o" "../Libraries/XMCLib/src/xmc_fce.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_fce.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_gpio.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_gpio.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_gpio.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_gpio.d" -MT"Libraries/XMCLib/src/xmc_gpio.d Libraries/XMCLib/src/xmc_gpio.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_gpio.o" "../Libraries/XMCLib/src/xmc_gpio.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_gpio.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_hrpwm.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_hrpwm.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_hrpwm.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_hrpwm.d" -MT"Libraries/XMCLib/src/xmc_hrpwm.d Libraries/XMCLib/src/xmc_hrpwm.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_hrpwm.o" "../Libraries/XMCLib/src/xmc_hrpwm.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_hrpwm.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_i2c.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_i2c.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_i2c.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_i2c.d" -MT"Libraries/XMCLib/src/xmc_i2c.d Libraries/XMCLib/src/xmc_i2c.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_i2c.o" "../Libraries/XMCLib/src/xmc_i2c.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_i2c.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_i2s.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_i2s.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_i2s.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_i2s.d" -MT"Libraries/XMCLib/src/xmc_i2s.d Libraries/XMCLib/src/xmc_i2s.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_i2s.o" "../Libraries/XMCLib/src/xmc_i2s.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_i2s.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_posif.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_posif.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_posif.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_posif.d" -MT"Libraries/XMCLib/src/xmc_posif.d Libraries/XMCLib/src/xmc_posif.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_posif.o" "../Libraries/XMCLib/src/xmc_posif.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_posif.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_ledts.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_ledts.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_ledts.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_ledts.d" -MT"Libraries/XMCLib/src/xmc_ledts.d Libraries/XMCLib/src/xmc_ledts.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_ledts.o" "../Libraries/XMCLib/src/xmc_ledts.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_ledts.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_rtc.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_rtc.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_rtc.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_rtc.d" -MT"Libraries/XMCLib/src/xmc_rtc.d Libraries/XMCLib/src/xmc_rtc.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_rtc.o" "../Libraries/XMCLib/src/xmc_rtc.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_rtc.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_sdmmc.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_sdmmc.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_sdmmc.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_sdmmc.d" -MT"Libraries/XMCLib/src/xmc_sdmmc.d Libraries/XMCLib/src/xmc_sdmmc.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_sdmmc.o" "../Libraries/XMCLib/src/xmc_sdmmc.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_sdmmc.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_uart.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_uart.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_uart.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_uart.d" -MT"Libraries/XMCLib/src/xmc_uart.d Libraries/XMCLib/src/xmc_uart.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_uart.o" "../Libraries/XMCLib/src/xmc_uart.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_uart.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_spi.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_spi.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_spi.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_spi.d" -MT"Libraries/XMCLib/src/xmc_spi.d Libraries/XMCLib/src/xmc_spi.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_spi.o" "../Libraries/XMCLib/src/xmc_spi.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_spi.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_usbd.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_usbd.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_usbd.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_usbd.d" -MT"Libraries/XMCLib/src/xmc_usbd.d Libraries/XMCLib/src/xmc_usbd.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_usbd.o" "../Libraries/XMCLib/src/xmc_usbd.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_usbd.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_usic.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_usic.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_usic.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_usic.d" -MT"Libraries/XMCLib/src/xmc_usic.d Libraries/XMCLib/src/xmc_usic.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_usic.o" "../Libraries/XMCLib/src/xmc_usic.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_usic.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_usbh.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_usbh.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_usbh.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_usbh.d" -MT"Libraries/XMCLib/src/xmc_usbh.d Libraries/XMCLib/src/xmc_usbh.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_usbh.o" "../Libraries/XMCLib/src/xmc_usbh.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_usbh.c'
+
+'Building file: ../Libraries/xmc4500_lib.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/xmc4500_lib.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/xmc4500_lib.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/xmc4500_lib.d" -MT"Libraries/xmc4500_lib.d Libraries/xmc4500_lib.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/xmc4500_lib.o" "../Libraries/xmc4500_lib.c" 
+'Finished building: ../Libraries/xmc4500_lib.c'
+
+'Building file: ../Libraries/Newlib/syscalls.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/Newlib/syscalls.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/Newlib/syscalls.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/Newlib/syscalls.d" -MT"Libraries/Newlib/syscalls.d Libraries/Newlib/syscalls.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/Newlib/syscalls.o" "../Libraries/Newlib/syscalls.c" 
+'Finished building: ../Libraries/Newlib/syscalls.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_wdt.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_wdt.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_wdt.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_wdt.d" -MT"Libraries/XMCLib/src/xmc_wdt.d Libraries/XMCLib/src/xmc_wdt.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_wdt.o" "../Libraries/XMCLib/src/xmc_wdt.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_wdt.c'
+
+'Building file: ../Libraries/XMCLib/src/xmc_vadc.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Libraries/XMCLib/src/xmc_vadc.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Libraries/XMCLib/src/xmc_vadc.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Libraries/XMCLib/src/xmc_vadc.d" -MT"Libraries/XMCLib/src/xmc_vadc.d Libraries/XMCLib/src/xmc_vadc.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Libraries/XMCLib/src/xmc_vadc.o" "../Libraries/XMCLib/src/xmc_vadc.c" 
+'Finished building: ../Libraries/XMCLib/src/xmc_vadc.c'
+
+'Building file: ../Dave/Generated/PIN_INTERRUPT/pin_interrupt.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/PIN_INTERRUPT/pin_interrupt.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/PIN_INTERRUPT/pin_interrupt.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/PIN_INTERRUPT/pin_interrupt.d" -MT"Dave/Generated/PIN_INTERRUPT/pin_interrupt.d Dave/Generated/PIN_INTERRUPT/pin_interrupt.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/PIN_INTERRUPT/pin_interrupt.o" "../Dave/Generated/PIN_INTERRUPT/pin_interrupt.c" 
+'Finished building: ../Dave/Generated/PIN_INTERRUPT/pin_interrupt.c'
+
+'Building file: ../main.c'
+../main.c: In function 'main':
+'Invoking: ARM-GCC C Compiler'
+../main.c:27:3: warning: implicit declaration of function 'init_pwm' [-Wimplicit-function-declaration]
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+   init_pwm(0b1010, 58596, 12)
+subdir.mk:18: recipe for target 'main.o' failed
+   ^
+../main.c:29:3: error: expected ';' before 'while'
+   while(1U) {
+   ^
+../main.c: At top level:
+../main.c:39:6: warning: conflicting types for 'init_pwm'
+ void init_pwm(uint16_t vorteiler, uint16_t periode, uint16_t w) {
+      ^
+../main.c:27:3: note: previous implicit declaration of 'init_pwm' was here
+   init_pwm(0b1010, 58596, 12)
+   ^
+../main.c: In function 'init_pwm':
+../main.c:42:5: warning: implicit declaration of function 'ccu4x_enable' [-Wimplicit-function-declaration]
+     ccu4x_enable();                 // Freigabe CCU42 Timermodul
+     ^
+make: *** [main.o] Error 1
+make: *** Waiting for unfinished jobs....
+'Building file: ../Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.d" -MT"Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.d Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.o" "../Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.c" 
+'Finished building: ../Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.c'
+
+'Building file: ../Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4.d" -MT"Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4.d Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4.o" "../Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4.c" 
+'Finished building: ../Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4.c'
+
+'Building file: ../Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.d" -MT"Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.d Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.o" "../Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.c" 
+'Finished building: ../Dave/Generated/CPU_CTRL_XMC4/cpu_ctrl_xmc4_conf.c'
+
+'Building file: ../Dave/Generated/DAVE.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/DAVE.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/DAVE.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/DAVE.d" -MT"Dave/Generated/DAVE.d Dave/Generated/DAVE.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/DAVE.o" "../Dave/Generated/DAVE.c" 
+'Finished building: ../Dave/Generated/DAVE.c'
+
+13:22:49 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c: In function 'main':
+'Invoking: ARM-GCC C Compiler'
+../main.c:32:3: error: expected ';' before 'while'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+   while(1U) {
+subdir.mk:18: recipe for target 'main.o' failed
+   ^
+../main.c: In function 'init_pwm':
+../main.c:45:5: warning: implicit declaration of function 'ccu4x_enable' [-Wimplicit-function-declaration]
+     ccu4x_enable();                 // Freigabe CCU42 Timermodul
+     ^
+make: *** [main.o] Error 1
+13:23:23 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+../main.c: In function 'init_pwm':
+'Building file: ../main.c'
+../main.c:45:5: warning: implicit declaration of function 'ccu4x_enable' [-Wimplicit-function-declaration]
+'Invoking: ARM-GCC C Compiler'
+     ccu4x_enable();                 // Freigabe CCU42 Timermodul
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+     ^
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3276	      0	   2076	   5352	   14e8	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+13:24:57 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3276	      0	   2076	   5352	   14e8	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+13:27:55 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+../main.c: In function 'init_pwm':
+'Building file: ../main.c'
+../main.c:45:5: warning: implicit declaration of function 'ccu4x_enable' [-Wimplicit-function-declaration]
+'Invoking: ARM-GCC C Compiler'
+     ccu4x_enable();                 // Freigabe CCU42 Timermodul
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+     ^
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+13:28:30 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+13:28:52 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+13:30:57 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c: In function 'init_pwm':
+'Invoking: ARM-GCC C Compiler'
+../main.c:45:5: warning: implicit declaration of function 'ccu4x_enable' [-Wimplicit-function-declaration]
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+     ccu4x_enable();                 // Freigabe CCU42 Timermodul
+
+     ^
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+13:33:20 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+13:33:38 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+13:34:14 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+13:37:26 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+13:37:38 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+13:38:22 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+13:43:01 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c:2:1: error: unknown type name 'selected'
+'Invoking: ARM-GCC C Compiler'
+ selected device
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+ ^
+subdir.mk:18: recipe for target 'main.o' failed
+../main.c:4:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'void'
+ void init_timer ( void );
+ ^
+../main.c:7:1: warning: return type defaults to 'int'
+ main ( void ) { // Ausgabe Port 0:
+ ^
+../main.c: In function 'main':
+../main.c:10:2: warning: implicit declaration of function 'init_timer' [-Wimplicit-function-declaration]
+  init_timer();
+  ^
+../main.c: At top level:
+../main.c:17:6: warning: conflicting types for 'init_timer'
+ void init_timer ( void ) {
+      ^
+../main.c:10:2: note: previous implicit declaration of 'init_timer' was here
+  init_timer();
+  ^
+../main.c: In function 'init_timer':
+../main.c:18:2: warning: implicit declaration of function 'ccu4x_enable' [-Wimplicit-function-declaration]
+  ccu4x_enable();
+  ^
+make: *** [main.o] Error 1
+13:50:51 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+13:51:47 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+13:54:49 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      0	   2076	   5348	   14e4	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+13:56:30 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3264	      0	   2076	   5340	   14dc	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+14:00:32 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3264	      0	   2076	   5340	   14dc	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+14:01:58 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3268	      0	   2076	   5344	   14e0	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+14:03:41 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3264	      0	   2076	   5340	   14dc	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+14:04:18 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3264	      0	   2076	   5340	   14dc	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+14:06:26 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3264	      0	   2076	   5340	   14dc	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+14:16:05 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3264	      0	   2076	   5340	   14dc	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+14:39:02 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+../main.c: In function 'main':
+'Building file: ../main.c'
+../main.c:37:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+'Invoking: ARM-GCC C Compiler'
+     printf("%d", ticks);
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+     ^
+
+../main.c:37:5: warning: incompatible implicit declaration of built-in function 'printf'
+../main.c:37:5: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t' [-Wformat=]
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7172	    100	   2096	   9368	   2498	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+14:39:26 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3308	      0	   2076	   5384	   1508	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+14:40:00 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3308	      0	   2076	   5384	   1508	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+14:40:21 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3308	      0	   2076	   5384	   1508	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+14:41:00 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3308	      0	   2076	   5384	   1508	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+14:42:13 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3300	      0	   2076	   5376	   1500	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+14:42:23 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3300	      0	   2076	   5376	   1500	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+14:44:00 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3300	      0	   2076	   5376	   1500	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3300	      0	   2076	   5376	   1500	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+08:45:28 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+../main.c: In function 'main':
+'Building file: ../main.c'
+../main.c:40:19: error: 'i' undeclared (first use in this function)
+'Invoking: ARM-GCC C Compiler'
+     lcd_setcursor(i+1,1);
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+                   ^
+subdir.mk:18: recipe for target 'main.o' failed
+../main.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:43:5: error: too few arguments to function 'lcd_int'
+     lcd_int();
+     ^
+In file included from ../main.c:21:0:
+C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/xmc4500_lib.h:14:13: note: declared here
+ extern void lcd_int       ( uint16_t value  );                 // 0 ... 65535
+             ^
+make: *** [main.o] Error 1
+08:45:53 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c: In function 'main':
+'Invoking: ARM-GCC C Compiler'
+../main.c:40:19: error: 'i' undeclared (first use in this function)
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+     lcd_setcursor(i+1,1);
+subdir.mk:18: recipe for target 'main.o' failed
+                   ^
+../main.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [main.o] Error 1
+08:46:28 **** Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6364	      0	   2084	   8448	   2100	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+08:46:36 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6364	      0	   2084	   8448	   2100	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+08:53:18 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6372	      0	   2084	   8456	   2108	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+08:54:33 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6372	      0	   2084	   8456	   2108	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+08:58:43 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6372	      0	   2084	   8456	   2108	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+08:59:14 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6380	      0	   2084	   8464	   2110	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:00:44 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6372	      0	   2084	   8456	   2108	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:10:00 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6372	      0	   2084	   8456	   2108	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:11:08 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6372	      0	   2084	   8456	   2108	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:15:51 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6384	      0	   2084	   8468	   2114	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:16:42 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6384	      0	   2084	   8468	   2114	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:26:49 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c: In function 'init_timer':
+'Invoking: ARM-GCC C Compiler'
+../main.c:37:3: error: expected declaration specifiers before 'lcd_init'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+   lcd_init();
+subdir.mk:18: recipe for target 'main.o' failed
+   ^
+../main.c:38:3: error: expected declaration specifiers before 'lcd_clear'
+   lcd_clear();
+   ^
+../main.c:40:3: error: expected declaration specifiers before 'while'
+   while(1U) {
+   ^
+../main.c:51:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../main.c:53:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ void IRQHandler(void) {
+                       ^
+../main.c:66:65: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ void init_pwm(uint32_t vorteiler, uint32_t periode, uint32_t w) {
+                                                                 ^
+../main.c:83:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ void init_timer(void) {
+                       ^
+../main.c:91:1: error: expected '{' at end of input
+ }
+ ^
+../main.c: In function 'main':
+../main.c:91:1: error: expected declaration or statement at end of input
+make: *** [main.o] Error 1
+09:27:09 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c: In function 'main':
+'Invoking: ARM-GCC C Compiler'
+../main.c:35:8: error: conflicting types for 'init_timer'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+   void init_timer(void);
+subdir.mk:18: recipe for target 'main.o' failed
+        ^
+../main.c:29:6: note: previous declaration of 'init_timer' was here
+ void init_timer(uint16_t vt, uint16_t p);
+      ^
+make: *** [main.o] Error 1
+09:27:26 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c: In function 'main':
+'Invoking: ARM-GCC C Compiler'
+../main.c:35:3: error: too few arguments to function 'init_timer'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+subdir.mk:18: recipe for target 'main.o' failed
+   init_timer();
+   ^
+../main.c:29:6: note: declared here
+ void init_timer(uint16_t vt, uint16_t p);
+      ^
+../main.c: At top level:
+../main.c:83:6: error: conflicting types for 'init_timer'
+ void init_timer(void) {
+      ^
+../main.c:29:6: note: previous declaration of 'init_timer' was here
+ void init_timer(uint16_t vt, uint16_t p);
+      ^
+make: *** [main.o] Error 1
+09:27:49 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6424	      0	   2084	   8508	   213c	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:29:38 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6428	      0	   2084	   8512	   2140	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:32:19 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c: In function 'main':
+'Invoking: ARM-GCC C Compiler'
+../main.c:46:14: warning: passing argument 1 of 'lcd_char' makes integer from pointer without a cast
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+     lcd_char("c");
+'Finished building: ../main.c'
+              ^
+
+In file included from ../main.c:21:0:
+C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/xmc4500_lib.h:12:13: note: expected 'uint8_t' but argument is of type 'char *'
+ extern void lcd_char      ( uint8_t  value  );                 // Ausgabe eines Zeichens an der aktuellen Cursorposition
+             ^
+../main.c:47:14: warning: passing argument 1 of 'lcd_char' makes integer from pointer without a cast
+     lcd_char("m");
+              ^
+In file included from ../main.c:21:0:
+C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/xmc4500_lib.h:12:13: note: expected 'uint8_t' but argument is of type 'char *'
+ extern void lcd_char      ( uint8_t  value  );                 // Ausgabe eines Zeichens an der aktuellen Cursorposition
+             ^
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6468	      0	   2084	   8552	   2168	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:32:49 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+../main.c: In function 'main':
+'Invoking: ARM-GCC C Compiler'
+../main.c:47:14: warning: passing argument 1 of 'lcd_char' makes integer from pointer without a cast
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+     lcd_char("m");
+'Finished building: ../main.c'
+              ^
+
+In file included from ../main.c:21:0:
+C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/xmc4500_lib.h:12:13: note: expected 'uint8_t' but argument is of type 'char *'
+ extern void lcd_char      ( uint8_t  value  );                 // Ausgabe eines Zeichens an der aktuellen Cursorposition
+             ^
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6456	      0	   2084	   8540	   215c	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+09:33:37 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6444	      0	   2084	   8528	   2150	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+
+10:07:44 **** Incremental Build of configuration Debug for project aufgabe6.1 ****
+"\"C:\\Program Files\\Infineon\\DAVE-IDE_4.5.0\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j8 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4500_F100x1024 -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/XMCLib/inc" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries/CMSIS/Infineon/XMC4500_series/Include" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Dave/Generated" -I"C:/Users/Dennis/NextCloud/desktop/Neuer Ordner/aufgabe6.1/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: aufgabe6.1.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"aufgabe6.1.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "aufgabe6.1.elf" "@objects.rsp"  -lm
+'Finished building target: aufgabe6.1.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "aufgabe6.1.elf" "aufgabe61.hex"
+'Finished building: aufgabe61.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "aufgabe6.1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6444	      0	   2084	   8528	   2150	aufgabe6.1.elf
+'Finished building: aufgabe6.1.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/Program Files/Infineon/DAVE-IDE_4.5.0/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "aufgabe6.1.elf" > "aufgabe6.1.lst"
+'Finished building: aufgabe6.1.lst'
+

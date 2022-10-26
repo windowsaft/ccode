@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectConfig>
+    <ResourceReserve/>
+    <Solver>
+        <SolverBndMap>
+            <BindMap MUri="peripheral/cpu/0/exception/busfault" Proxy="app/CPU_CTRL_XMC4/0/hwres_exception_busfault"/>
+            <BindMap MUri="peripheral/cpu/0/exception/memmanage" Proxy="app/CPU_CTRL_XMC4/0/hwres_exception_memmanage"/>
+            <BindMap MUri="port/p/0/pad/0" Proxy="app/PIN_INTERRUPT/0/hwres_port_pin"/>
+            <BindMap MUri="peripheral/scu/0/gcu/interrupt/erunmi/3" Proxy="app/PIN_INTERRUPT/0/hwres_scu_gcu_interrupt_erunmi"/>
+            <BindMap MUri="peripheral/cpu/0/exception/nmi" Proxy="app/CPU_CTRL_XMC4/0/hwres_exception_nmi"/>
+            <BindMap MUri="peripheral/cpu/0/debug" Proxy="app/CPU_CTRL_XMC4/0/hwres_swdclk"/>
+            <BindMap MUri="peripheral/cpu/0/exception/hardfault" Proxy="app/CPU_CTRL_XMC4/0/hwres_exception_hardfault"/>
+            <BindMap MUri="port/debug_port/0/pad/1" Proxy="app/CPU_CTRL_XMC4/0/hwres_port_pad_swd_tck"/>
+            <BindMap MUri="port/debug_port/0/pad/0" Proxy="app/CPU_CTRL_XMC4/0/hwres_port_pad_swd_tms"/>
+            <BindMap MUri="devicepackage/0/2" Proxy="app/PIN_INTERRUPT/0/__pin_hwres_port_pin"/>
+            <BindMap MUri="peripheral/eru/0/ers_etl/0" Proxy="app/PIN_INTERRUPT/0/hwres_eru_ers_etl"/>
+            <BindMap MUri="peripheral/cpu/0/exception/usagefault" Proxy="app/CPU_CTRL_XMC4/0/hwres_exception_usagefault"/>
+            <BindMap MUri="peripheral/cpu/0/nvic/interrupt/4" Proxy="app/PIN_INTERRUPT/0/hwres_interrupt"/>
+            <BindMap MUri="peripheral/eru/0/ogu/3" Proxy="app/PIN_INTERRUPT/0/hwres_eru_ogu"/>
+        </SolverBndMap>
+    </Solver>
+</ProjectConfig>
